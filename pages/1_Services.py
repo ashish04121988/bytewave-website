@@ -141,8 +141,8 @@ st.markdown("""
     <h2 class="cta-title">Ready to <span class="gradient-text">Get Started?</span></h2>
     <p class="cta-sub">Tell us about your business and we'll recommend the right service mix for maximum ROI.</p>
     <div class="cta-buttons">
-        <a href="/Contact" class="btn-gradient">🚀 Book a Free Consultation</a>
-        <a href="/Pricing" class="btn-outline">💰 View Pricing</a>
+        <a target="_self" href="/Contact" class="btn-gradient">🚀 Book a Free Consultation</a>
+        <a target="_self" href="/Pricing" class="btn-outline">💰 View Pricing</a>
     </div>
 </section>
 """, unsafe_allow_html=True)

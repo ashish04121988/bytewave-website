@@ -158,8 +158,8 @@ st.markdown("""
     <h2 class="cta-title">Ready to See <span class="gradient-text">These Results?</span></h2>
     <p class="cta-sub">Join businesses growing their revenue with Bytewave's proven system.</p>
     <div class="cta-buttons">
-        <a href="/Contact" class="btn-gradient">🚀 Start Growing Today</a>
-        <a href="/Process" class="btn-outline">⚙️ See Our Process</a>
+        <a target="_self" href="/Contact" class="btn-gradient">🚀 Start Growing Today</a>
+        <a target="_self" href="/Process" class="btn-outline">⚙️ See Our Process</a>
     </div>
 </section>
 """, unsafe_allow_html=True)

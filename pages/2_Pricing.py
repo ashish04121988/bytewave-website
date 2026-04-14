@@ -94,7 +94,7 @@ st.markdown("""
                 <li>Weekly lead reports</li>
                 <li>Dedicated account manager</li>
             </ul>
-            <a href="/Contact" class="pricing-cta secondary">Get Custom Quote →</a>
+            <a target="_self" href="/Contact" class="pricing-cta secondary">Get Custom Quote →</a>
         </div>
 
         <div class="pricing-card featured">
@@ -110,7 +110,7 @@ st.markdown("""
                 <li>CRM integration support</li>
                 <li>Performance analytics</li>
             </ul>
-            <a href="/Contact" class="pricing-cta primary">Get Custom Quote →</a>
+            <a target="_self" href="/Contact" class="pricing-cta primary">Get Custom Quote →</a>
         </div>
 
         <div class="pricing-card">
@@ -126,7 +126,7 @@ st.markdown("""
                 <li>Priority support</li>
                 <li>Custom data targeting</li>
             </ul>
-            <a href="/Contact" class="pricing-cta secondary">Get Custom Quote →</a>
+            <a target="_self" href="/Contact" class="pricing-cta secondary">Get Custom Quote →</a>
         </div>
 
     </div>
@@ -167,8 +167,8 @@ st.markdown("""
     <h2 class="cta-title">Let's Build a Plan That <span class="gradient-text">Works for You</span></h2>
     <p class="cta-sub">Every business is different. Let's talk and design a custom revenue acceleration plan together.</p>
     <div class="cta-buttons">
-        <a href="/Contact" class="btn-gradient">📞 Book Strategy Call</a>
-        <a href="/Contact" class="btn-outline">💬 Talk to Our Team</a>
+        <a target="_self" href="/Contact" class="btn-gradient">📞 Book Strategy Call</a>
+        <a target="_self" href="/Contact" class="btn-outline">💬 Talk to Our Team</a>
     </div>
 </section>
 """, unsafe_allow_html=True)

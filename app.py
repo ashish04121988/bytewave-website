@@ -27,8 +27,8 @@ st.markdown("""
             building, and end-to-end sales execution.
         </p>
         <div class="hero-cta-group">
-            <a href="/Contact" class="btn-gradient">🚀 Get Qualified Leads</a>
-            <a href="/Contact" class="btn-outline">📞 Book Free Strategy Call</a>
+            <a target="_self" href="/Contact" class="btn-gradient">🚀 Get Qualified Leads</a>
+            <a target="_self" href="/Contact" class="btn-outline">📞 Book Free Strategy Call</a>
         </div>
     </div>
     <div class="hero-right">
@@ -240,8 +240,8 @@ st.markdown("""
     <h2 class="cta-title">Ready to Scale Your <span class="gradient-text">Revenue?</span></h2>
     <p class="cta-sub">Join businesses that are growing faster with Bytewave's proven revenue acceleration system.</p>
     <div class="cta-buttons">
-        <a href="/Contact" class="btn-gradient">🚀 Get Started Today</a>
-        <a href="/Contact" class="btn-outline">📞 Book a Strategy Call</a>
+        <a target="_self" href="/Contact" class="btn-gradient">🚀 Get Started Today</a>
+        <a target="_self" href="/Contact" class="btn-outline">📞 Book a Strategy Call</a>
     </div>
 </section>
 """, unsafe_allow_html=True)
