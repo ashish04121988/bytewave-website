@@ -1,4 +1,13 @@
 import streamlit as st
+import base64, os
+
+def _logo_b64():
+    logo_path = os.path.join(os.path.dirname(__file__), 'assets', 'logo.png')
+    try:
+        with open(logo_path, 'rb') as f:
+            return base64.b64encode(f.read()).decode()
+    except FileNotFoundError:
+        return ""
 
 def navbar(active_page="Home"):
     pages = {
@@ -15,17 +24,24 @@ def navbar(active_page="Home"):
         active_style = "color:#E85D04 !important; font-weight:700;" if name == active_page else ""
         nav_links += f'<a target="_self" href="{path}" style="{active_style}">{name}</a>'
 
+    logo_b64 = _logo_b64()
+    logo_html = f'<a target="_self" href="/" style="text-decoration:none; display:flex; align-items:center; gap:12px;"><img src="data:image/png;base64,{logo_b64}" style="height:48px; width:48px; object-fit:cover; border-radius:10px;" alt="Bytewave Digital Logo" /></a>' if logo_b64 else ""
+
     st.markdown(f"""
     <nav class="navbar">
-        <div>
-            <div class="navbar-logo">⚡ BYTEWAVE DIGITAL</div>
-            <div class="navbar-tagline">Right Technology. No Noise.</div>
+        <div style="display:flex; align-items:center; gap:14px;">
+            {logo_html}
+            <div>
+                <div class="navbar-logo">BYTEWAVE DIGITAL</div>
+                <div class="navbar-tagline">Right Technology. No Noise.</div>
+            </div>
         </div>
         <div style="display:flex; gap:28px; align-items:center;" class="navbar-links">
             {nav_links}
             <a target="_self" href="/Contact" class="btn-gradient" style="text-decoration:none; padding:10px 22px; border-radius:8px; font-weight:700; font-size:13px; color:white; background:linear-gradient(135deg,#E85D04,#7C3AED);">Schedule a Consultation</a>
         </div>
     </nav>
+    <div class="navbar-spacer"></div>
     """, unsafe_allow_html=True)
 
 

@@ -71,12 +71,12 @@ with st.container():
     with row1_c3:
         st.markdown("""
         <div class="sol-img-card" style="height:240px; margin-bottom:24px;">
-            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=90" alt="Cloud" />
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=90" alt="Observability" />
             <div class="sol-img-overlay">
                 <span class="sol-img-tag">03</span>
-                <div class="sol-img-icon">&#9729;&#65039;</div>
-                <div class="sol-img-title">Cloud &amp; IT Solutions</div>
-                <div class="sol-img-desc">Scale with confidence in the cloud</div>
+                <div class="sol-img-icon">&#128301;</div>
+                <div class="sol-img-title">Observability</div>
+                <div class="sol-img-desc">Complete visibility at cloud scale</div>
             </div>
         </div>
         """, unsafe_allow_html=True)
@@ -86,12 +86,12 @@ with st.container():
     with row2_c1:
         st.markdown("""
         <div class="sol-img-card" style="height:240px; margin-bottom:40px;">
-            <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=900&q=90" alt="AI" />
+            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=90" alt="Cloud" />
             <div class="sol-img-overlay">
                 <span class="sol-img-tag">04</span>
-                <div class="sol-img-icon">&#129302;</div>
-                <div class="sol-img-title">Agentic AI Solutions</div>
-                <div class="sol-img-desc">Intelligent automation for your workflows</div>
+                <div class="sol-img-icon">&#9729;&#65039;</div>
+                <div class="sol-img-title">Cloud &amp; IT Solutions</div>
+                <div class="sol-img-desc">Scale with confidence in the cloud</div>
             </div>
         </div>
         """, unsafe_allow_html=True)
@@ -99,12 +99,12 @@ with st.container():
     with row2_c2:
         st.markdown("""
         <div class="sol-img-card" style="height:240px; margin-bottom:40px;">
-            <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=90" alt="HR" />
+            <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=900&q=90" alt="AI" />
             <div class="sol-img-overlay">
                 <span class="sol-img-tag">05</span>
-                <div class="sol-img-icon">&#128101;</div>
-                <div class="sol-img-title">HR &amp; Finance Software</div>
-                <div class="sol-img-desc">Smarter workforce &amp; financial management</div>
+                <div class="sol-img-icon">&#129302;</div>
+                <div class="sol-img-title">Agentic AI Solutions</div>
+                <div class="sol-img-desc">Intelligent automation for your workflows</div>
             </div>
         </div>
         """, unsafe_allow_html=True)
@@ -112,12 +112,12 @@ with st.container():
     with row2_c3:
         st.markdown("""
         <div class="sol-img-card" style="height:240px; margin-bottom:40px;">
-            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=90" alt="Observability" />
+            <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=90" alt="HR" />
             <div class="sol-img-overlay">
                 <span class="sol-img-tag">06</span>
-                <div class="sol-img-icon">&#128301;</div>
-                <div class="sol-img-title">Observability</div>
-                <div class="sol-img-desc">Complete visibility at cloud scale</div>
+                <div class="sol-img-icon">&#128101;</div>
+                <div class="sol-img-title">HR &amp; Finance Software</div>
+                <div class="sol-img-desc">Smarter workforce &amp; financial management</div>
             </div>
         </div>
         """, unsafe_allow_html=True)
@@ -135,7 +135,7 @@ st.markdown("""
 with st.container():
 
     tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
-        "&#128187; CRM", "&#128226; Marketing", "&#9729;&#65039; Cloud &amp; IT", "&#129302; AI", "&#128101; HR &amp; Finance", "&#128301; Observability"
+        "&#128187; CRM", "&#128226; Marketing", "&#128301; Observability", "&#9729;&#65039; Cloud &amp; IT", "&#129302; AI", "&#128101; HR &amp; Finance"
     ])
 
     with tab1:
@@ -223,9 +223,49 @@ with st.container():
         with col_img:
             st.markdown("""
             <div class="sol-img-card">
-                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=90" alt="Cloud and IT" />
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=90" alt="Observability" />
                 <div class="sol-img-overlay">
                     <span class="sol-img-tag">SOLUTION 03</span>
+                    <div class="sol-img-icon">&#128301;</div>
+                    <div class="sol-img-title">Observability</div>
+                    <div class="sol-img-desc">Complete visibility at cloud scale</div>
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+        with col_txt:
+            st.markdown("""
+            <div style="padding-left:24px;">
+                <div class="section-label" style="text-align:left;">Solution 03</div>
+                <h3 style="font-size:28px; font-weight:800; color:#1C1107; margin-bottom:14px; letter-spacing:-0.5px;">Observability for Cloud-Scale Apps</h3>
+                <p style="font-size:15px; color:#6B5E52; line-height:1.8; margin-bottom:16px;">
+                    Gain full visibility into your applications and infrastructure with modern observability platforms. We help you choose solutions that provide real-time insights across logs, metrics, and traces &#8212; ensuring performance, reliability, and faster issue resolution.
+                </p>
+                <div style="background:rgba(217,119,6,0.06); border-left:3px solid #D97706; border-radius:0 8px 8px 0; padding:14px 18px; margin-bottom:20px;">
+                    <p style="font-size:14px; color:#4A3728; line-height:1.7; margin:0; font-style:italic;">
+                        Why you need this: In cloud environments, downtime costs thousands per minute. Observability is the foundation of reliability engineering.
+                    </p>
+                </div>
+                <div style="font-size:13px; font-weight:700; color:#E85D04; letter-spacing:2px; text-transform:uppercase; margin-bottom:12px;">Key Features We Evaluate</div>
+                <ul style="list-style:none; display:flex; flex-direction:column; gap:8px; margin-bottom:28px;">
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Application performance monitoring (APM)</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Infrastructure &amp; container visibility</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Log management &amp; analytics</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Distributed tracing capabilities</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Incident detection &amp; alerting</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Cloud-scale platform evaluation</li>
+                </ul>
+                <a target="_self" href="/Contact" class="btn-gradient" style="text-decoration:none;">Get Observability Advisory &#8594;</a>
+            </div>
+            """, unsafe_allow_html=True)
+
+    with tab4:
+        col_img, col_txt = st.columns([1, 1])
+        with col_img:
+            st.markdown("""
+            <div class="sol-img-card">
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=90" alt="Cloud and IT" />
+                <div class="sol-img-overlay">
+                    <span class="sol-img-tag">SOLUTION 04</span>
                     <div class="sol-img-icon">&#9729;&#65039;</div>
                     <div class="sol-img-title">Cloud &amp; IT Solutions</div>
                     <div class="sol-img-desc">Scale with confidence in the cloud</div>
@@ -235,7 +275,7 @@ with st.container():
         with col_txt:
             st.markdown("""
             <div style="padding-left:24px;">
-                <div class="section-label" style="text-align:left;">Solution 03</div>
+                <div class="section-label" style="text-align:left;">Solution 04</div>
                 <h3 style="font-size:28px; font-weight:800; color:#1C1107; margin-bottom:14px; letter-spacing:-0.5px;">Cloud &amp; IT Solutions</h3>
                 <p style="font-size:15px; color:#6B5E52; line-height:1.8; margin-bottom:16px;">
                     Build a scalable and resilient IT foundation with the right cloud and infrastructure solutions. We help you navigate multi-cloud environments, optimize costs, and choose technologies that support performance, security, and long-term agility.
@@ -258,14 +298,14 @@ with st.container():
             </div>
             """, unsafe_allow_html=True)
 
-    with tab4:
+    with tab5:
         col_img, col_txt = st.columns([1, 1])
         with col_img:
             st.markdown("""
             <div class="sol-img-card">
                 <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=900&q=90" alt="AI Solutions" />
                 <div class="sol-img-overlay">
-                    <span class="sol-img-tag">SOLUTION 04</span>
+                    <span class="sol-img-tag">SOLUTION 05</span>
                     <div class="sol-img-icon">&#129302;</div>
                     <div class="sol-img-title">Agentic AI Solutions</div>
                     <div class="sol-img-desc">Intelligent automation for modern businesses</div>
@@ -275,7 +315,7 @@ with st.container():
         with col_txt:
             st.markdown("""
             <div style="padding-left:24px;">
-                <div class="section-label" style="text-align:left;">Solution 04</div>
+                <div class="section-label" style="text-align:left;">Solution 05</div>
                 <h3 style="font-size:28px; font-weight:800; color:#1C1107; margin-bottom:14px; letter-spacing:-0.5px;">Agentic AI Solutions</h3>
                 <p style="font-size:15px; color:#6B5E52; line-height:1.8; margin-bottom:16px;">
                     Leverage next-generation AI solutions that go beyond automation to enable intelligent decision-making and task execution. We help you identify use cases and select platforms that drive productivity, innovation, and competitive advantage.
@@ -298,14 +338,14 @@ with st.container():
             </div>
             """, unsafe_allow_html=True)
 
-    with tab5:
+    with tab6:
         col_img, col_txt = st.columns([1, 1])
         with col_img:
             st.markdown("""
             <div class="sol-img-card">
                 <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=90" alt="HR and Finance" />
                 <div class="sol-img-overlay">
-                    <span class="sol-img-tag">SOLUTION 05</span>
+                    <span class="sol-img-tag">SOLUTION 06</span>
                     <div class="sol-img-icon">&#128101;</div>
                     <div class="sol-img-title">HR &amp; Finance Software</div>
                     <div class="sol-img-desc">Smarter workforce &amp; financial management</div>
@@ -315,7 +355,7 @@ with st.container():
         with col_txt:
             st.markdown("""
             <div style="padding-left:24px;">
-                <div class="section-label" style="text-align:left;">Solution 05</div>
+                <div class="section-label" style="text-align:left;">Solution 06</div>
                 <h3 style="font-size:28px; font-weight:800; color:#1C1107; margin-bottom:14px; letter-spacing:-0.5px;">HR &amp; Finance Software</h3>
                 <p style="font-size:15px; color:#6B5E52; line-height:1.8; margin-bottom:16px;">
                     Streamline core business operations with modern HR and finance solutions that enhance efficiency, ensure compliance, and provide real-time insights. We guide you in selecting platforms that align with your organizational structure and growth plans.
@@ -335,46 +375,6 @@ with st.container():
                     <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Multi-currency &amp; multi-entity support</li>
                 </ul>
                 <a target="_self" href="/Contact" class="btn-gradient" style="text-decoration:none;">Get HR &amp; Finance Advisory &#8594;</a>
-            </div>
-            """, unsafe_allow_html=True)
-
-    with tab6:
-        col_img, col_txt = st.columns([1, 1])
-        with col_img:
-            st.markdown("""
-            <div class="sol-img-card">
-                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=90" alt="Observability" />
-                <div class="sol-img-overlay">
-                    <span class="sol-img-tag">SOLUTION 06</span>
-                    <div class="sol-img-icon">&#128301;</div>
-                    <div class="sol-img-title">Observability</div>
-                    <div class="sol-img-desc">Complete visibility at cloud scale</div>
-                </div>
-            </div>
-            """, unsafe_allow_html=True)
-        with col_txt:
-            st.markdown("""
-            <div style="padding-left:24px;">
-                <div class="section-label" style="text-align:left;">Solution 06</div>
-                <h3 style="font-size:28px; font-weight:800; color:#1C1107; margin-bottom:14px; letter-spacing:-0.5px;">Observability for Cloud-Scale Apps</h3>
-                <p style="font-size:15px; color:#6B5E52; line-height:1.8; margin-bottom:16px;">
-                    Gain full visibility into your applications and infrastructure with modern observability platforms. We help you choose solutions that provide real-time insights across logs, metrics, and traces &#8212; ensuring performance, reliability, and faster issue resolution.
-                </p>
-                <div style="background:rgba(217,119,6,0.06); border-left:3px solid #D97706; border-radius:0 8px 8px 0; padding:14px 18px; margin-bottom:20px;">
-                    <p style="font-size:14px; color:#4A3728; line-height:1.7; margin:0; font-style:italic;">
-                        Why you need this: In cloud environments, downtime costs thousands per minute. Observability is the foundation of reliability engineering.
-                    </p>
-                </div>
-                <div style="font-size:13px; font-weight:700; color:#E85D04; letter-spacing:2px; text-transform:uppercase; margin-bottom:12px;">Key Features We Evaluate</div>
-                <ul style="list-style:none; display:flex; flex-direction:column; gap:8px; margin-bottom:28px;">
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Application performance monitoring (APM)</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Infrastructure &amp; container visibility</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Log management &amp; analytics</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Distributed tracing capabilities</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Incident detection &amp; alerting</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Cloud-scale platform evaluation</li>
-                </ul>
-                <a target="_self" href="/Contact" class="btn-gradient" style="text-decoration:none;">Get Observability Advisory &#8594;</a>
             </div>
             """, unsafe_allow_html=True)
 

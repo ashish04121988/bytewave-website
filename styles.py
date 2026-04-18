@@ -111,20 +111,25 @@ GLOBAL_CSS = """<style>
         background-clip: text;
     }
 
-    /* ===== NAVBAR (LIGHT) ===== */
+    /* ===== NAVBAR (FIXED) ===== */
     .navbar {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 16px 60px;
-        background: rgba(250,248,244,0.97);
+        padding: 10px 60px;
+        background: rgba(250,248,244,0.98);
         backdrop-filter: blur(20px);
         border-bottom: 1px solid rgba(232,93,4,0.12);
-        position: sticky;
+        position: fixed;
         top: 0;
-        z-index: 999;
+        left: 0;
+        right: 0;
+        z-index: 9999;
         width: 100%;
         box-shadow: 0 2px 20px rgba(28,17,7,0.06);
+    }
+    .navbar-spacer {
+        height: 72px;
     }
 
     .navbar-logo {
