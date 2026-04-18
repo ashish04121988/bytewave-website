@@ -3,7 +3,7 @@ from styles import GLOBAL_CSS
 from components import navbar, footer
 
 st.set_page_config(
-    page_title="Bytewave Digital Solutions",
+    page_title="Bytewave Digital — Right Technology. No Noise.",
     page_icon="⚡",
     layout="wide",
     initial_sidebar_state="collapsed",
@@ -16,19 +16,18 @@ navbar("Home")
 st.markdown("""
 <section class="hero-section" style="display:flex;">
     <div class="hero-left">
-        <div class="hero-eyebrow">Your Growth Partner in Technology & Sales</div>
+        <div class="hero-eyebrow">Vendor-Neutral IT Software Reseller</div>
         <h1 class="hero-h1">
-            We Don't Just Sell Technology —<br>
-            We Help You <span class="gradient-text">Generate Revenue</span>
+            Simplifying Technology Buying<br>
+            for <span class="gradient-text">Modern Businesses</span>
         </h1>
         <p class="hero-sub">
-            Bytewave Digital Solutions helps businesses choose the right technology
-            and helps tech companies grow faster through lead generation, pipeline
-            building, and end-to-end sales execution.
+            Built on the legacy of Fundoo Data, Bytewave Digital helps you identify and procure
+            the right technology — faster, smarter, and without the noise.
         </p>
         <div class="hero-cta-group">
-            <a target="_self" href="/Contact" class="btn-gradient">🚀 Get Qualified Leads</a>
-            <a target="_self" href="/Contact" class="btn-outline">📞 Book Free Strategy Call</a>
+            <a target="_self" href="/Solutions" class="btn-gradient">🔍 Explore Solutions</a>
+            <a target="_self" href="/Contact" class="btn-outline">💬 Talk to an Expert</a>
         </div>
     </div>
     <div class="hero-right">
@@ -39,122 +38,113 @@ st.markdown("""
 </section>
 """, unsafe_allow_html=True)
 
-# ─── TRUST STRIP ─────────────────────────────────────────────────────────────
+# ─── TRUST BANNER ────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="trust-strip">
+    <div style="text-align:center; margin-bottom:14px; font-size:13px; color:#64748B; letter-spacing:1px;">
+        Born from the legacy of <strong style="color:#93C5FD;">Fundoo Data</strong> — trusted by organizations for corporate intelligence and insights
+    </div>
     <div class="trust-items">
-        <div class="trust-item"><span class="trust-icon">💻</span> Technology Reselling</div>
-        <div class="trust-item"><span class="trust-icon">📈</span> Lead Generation</div>
+        <div class="trust-item"><span class="trust-icon">💻</span> Software Reselling</div>
+        <div class="trust-item"><span class="trust-icon">🎯</span> Lead Generation</div>
         <div class="trust-item"><span class="trust-icon">🔥</span> Sales Execution</div>
-        <div class="trust-item"><span class="trust-icon">📊</span> Data Targeting</div>
-        <div class="trust-item"><span class="trust-icon">🎯</span> Pipeline Building</div>
+        <div class="trust-item"><span class="trust-icon">📈</span> Revenue Acceleration</div>
+        <div class="trust-item"><span class="trust-icon">🤝</span> Vendor-Neutral Advisory</div>
     </div>
 </div>
 """, unsafe_allow_html=True)
 
-# ─── ABOUT ───────────────────────────────────────────────────────────────────
+# ─── ABOUT SNAPSHOT ──────────────────────────────────────────────────────────
 st.markdown("""
 <section class="about-section">
     <div class="about-content">
         <div class="about-icon">⚡</div>
         <div class="section-label">About Us</div>
-        <h2 class="section-title">Your <span class="gradient-text">Revenue Growth</span> Partner</h2>
+        <h2 class="section-title">Your Technology &amp; <span class="gradient-text">Revenue Growth</span> Partner</h2>
         <p class="about-body">
-            Bytewave Digital Solutions is a <strong style="color:#93C5FD;">technology reseller and revenue acceleration partner</strong>.
-            We bridge the gap between technology companies and businesses by not only recommending the right solutions
-            but also ensuring they generate real business outcomes.
+            Bytewave Digital is a <strong style="color:#93C5FD;">technology reseller with a strong advisory approach</strong>,
+            helping businesses choose, implement, and optimize the right software solutions.
         </p>
-        <div class="about-tags">
-            <span class="about-tag">SaaS Companies</span>
-            <span class="about-tag">IT Service Providers</span>
-            <span class="about-tag">Enterprises</span>
-            <span class="about-tag">B2B Businesses</span>
+        <p class="about-body" style="margin-top:12px;">
+            Born from the legacy of Fundoo Data, we gained deep insights into how organizations evaluate and invest in technology.
+            After working with SME, mid-size, and enterprise customers, we identified a critical gap — organizations
+            struggled to find the right technology solutions in a complex and crowded market.
+            <strong style="color:#93C5FD;">Bytewave Digital was created to simplify that journey.</strong>
+        </p>
+        <div style="margin-top:28px;">
+            <a target="_self" href="/About" class="btn-gradient" style="text-decoration:none;">Learn Our Story →</a>
         </div>
     </div>
 </section>
 """, unsafe_allow_html=True)
 
-# ─── SERVICES ────────────────────────────────────────────────────────────────
+# ─── SOLUTIONS OVERVIEW ───────────────────────────────────────────────────────
 st.markdown("""
 <section class="section section-darker">
     <div class="section-label">What We Do</div>
-    <h2 class="section-title">End-to-End <span class="gradient-text">Revenue Services</span></h2>
-    <p class="section-subtitle">From technology adoption to sales execution — we cover the full revenue cycle.</p>
+    <h2 class="section-title">Our <span class="gradient-text">Solutions</span></h2>
+    <p class="section-subtitle">We simplify complex technology choices so you can focus on outcomes.</p>
     <div class="cards-grid">
         <div class="service-card">
-            <span class="card-icon">💻</span>
-            <div class="card-title">Technology Reselling</div>
-            <div class="card-desc">We help businesses identify and adopt the right software solutions. We don't just sell — we advise, recommend, and enable adoption.</div>
-            <ul class="card-bullets">
-                <li>CRM Solutions</li>
-                <li>Marketing Automation Tools</li>
-                <li>HR &amp; Finance Software</li>
-                <li>Cloud &amp; IT Solutions</li>
-            </ul>
+            <span class="card-icon">🤝</span>
+            <div class="card-title">CRM Solutions</div>
+            <div class="card-desc">Select the right CRM platform to streamline sales, improve customer engagement, and drive revenue growth.</div>
         </div>
         <div class="service-card">
-            <span class="card-icon">📈</span>
-            <div class="card-title">Lead Generation</div>
-            <div class="card-desc">We help technology companies generate high-quality B2B leads using data-driven strategies. Focus on quality, not just volume.</div>
-            <ul class="card-bullets">
-                <li>Targeted Prospect Lists</li>
-                <li>Email Campaigns</li>
-                <li>LinkedIn Outreach</li>
-                <li>Appointment Setting</li>
-            </ul>
+            <span class="card-icon">📣</span>
+            <div class="card-title">Marketing Automation</div>
+            <div class="card-desc">Navigate the crowded martech landscape with confidence. Choose platforms that enhance lead generation and campaigns.</div>
         </div>
         <div class="service-card">
-            <span class="card-icon">🔥</span>
-            <div class="card-title">Sales Execution</div>
-            <div class="card-desc">We go beyond leads and help you close deals. We act as your extended sales team — revenue-focused execution every step.</div>
-            <ul class="card-bullets">
-                <li>Sales Pipeline Management</li>
-                <li>Demo Coordination</li>
-                <li>Deal Follow-ups</li>
-                <li>Revenue Execution</li>
-            </ul>
+            <span class="card-icon">☁️</span>
+            <div class="card-title">Cloud &amp; IT Solutions</div>
+            <div class="card-desc">Choose the right cloud platforms and infrastructure tools to support scalability and performance.</div>
         </div>
         <div class="service-card">
-            <span class="card-icon">📊</span>
-            <div class="card-title">Data-Driven Targeting</div>
-            <div class="card-desc">Using premium data sources, we help you identify decision-makers, build targeted campaigns, and improve conversion rates.</div>
-            <ul class="card-bullets">
-                <li>Decision-Maker Identification</li>
-                <li>Targeted Campaigns</li>
-                <li>Improved Conversion Rates</li>
-                <li>Premium Data Sources</li>
-            </ul>
+            <span class="card-icon">🤖</span>
+            <div class="card-title">Agentic AI Solutions</div>
+            <div class="card-desc">Leverage next-generation AI tools that automate workflows, enhance productivity, and drive intelligent decision-making.</div>
         </div>
+        <div class="service-card">
+            <span class="card-icon">👥</span>
+            <div class="card-title">HR &amp; Finance Software</div>
+            <div class="card-desc">Enable smarter workforce and financial management. Identify solutions that improve efficiency and compliance.</div>
+        </div>
+        <div class="service-card">
+            <span class="card-icon">🔭</span>
+            <div class="card-title">Observability</div>
+            <div class="card-desc">Gain complete visibility into your applications and infrastructure at cloud scale.</div>
+        </div>
+    </div>
+    <div style="text-align:center; margin-top:40px;">
+        <a target="_self" href="/Solutions" class="btn-gradient" style="text-decoration:none;">View All Solutions →</a>
     </div>
 </section>
 """, unsafe_allow_html=True)
 
-# ─── WHO WE WORK WITH ────────────────────────────────────────────────────────
+# ─── HOW WE WORK ─────────────────────────────────────────────────────────────
 st.markdown("""
 <section class="section section-dark">
-    <div class="section-label">Who We Work With</div>
-    <h2 class="section-title">Built for <span class="gradient-text">Both Sides</span> of the Market</h2>
-    <p class="section-subtitle">Whether you sell technology or buy it — we have a solution for you.</p>
-    <div class="split-cards">
-        <div class="split-card">
-            <div class="split-card-icon">🧩</div>
-            <div class="split-card-title">For Technology Companies</div>
-            <ul class="split-card-list">
-                <li>Increase pipeline significantly</li>
-                <li>Enter new markets with confidence</li>
-                <li>Close more deals, faster</li>
-                <li>Outsource end-to-end sales</li>
-            </ul>
+    <div class="section-label">How We Work</div>
+    <h2 class="section-title">Understand → Curate → <span class="gradient-text">Enable</span></h2>
+    <p class="section-subtitle">A simple, proven approach to simplify your technology buying journey.</p>
+    <div class="process-steps" style="max-width:700px; margin:0 auto;">
+        <div class="process-step" style="width:200px;">
+            <div class="step-number">1</div>
+            <div class="step-title">Understand</div>
+            <div class="step-desc">We analyze your business needs, challenges, and goals in depth.</div>
         </div>
-        <div class="split-card">
-            <div class="split-card-icon">🏢</div>
-            <div class="split-card-title">For Businesses (Buyers)</div>
-            <ul class="split-card-list">
-                <li>Get the right technology fit</li>
-                <li>Save time on vendor research</li>
-                <li>Improve operations efficiently</li>
-                <li>Expert advisory at every step</li>
-            </ul>
+        <div class="step-connector" style="width:80px;"></div>
+        <div class="process-step" style="width:200px;">
+            <div class="step-number">2</div>
+            <div class="step-title">Curate</div>
+            <div class="step-desc">We shortlist the most relevant, best-fit technology solutions for you.</div>
+        </div>
+        <div class="step-connector" style="width:80px;"></div>
+        <div class="process-step" style="width:200px;">
+            <div class="step-number">3</div>
+            <div class="step-title">Enable</div>
+            <div class="step-desc">We help you make informed decisions and connect with the right vendors.</div>
         </div>
     </div>
 </section>
@@ -163,72 +153,33 @@ st.markdown("""
 # ─── WHY CHOOSE US ───────────────────────────────────────────────────────────
 st.markdown("""
 <section class="section section-darker">
-    <div class="section-label">Why Choose Us</div>
+    <div class="section-label">Why Bytewave Digital</div>
     <h2 class="section-title">The <span class="gradient-text">Bytewave</span> Advantage</h2>
-    <p class="section-subtitle">We combine technology expertise with proven sales execution to deliver measurable ROI.</p>
+    <p class="section-subtitle">We recommend what's right for you — not what we need to sell.</p>
     <div class="why-grid">
         <div class="why-item">
             <span class="why-check">✔</span>
-            <span class="why-text">End-to-end approach — Lead → Pipeline → Revenue</span>
+            <span class="why-text">Vendor-neutral technology advisory</span>
         </div>
         <div class="why-item">
             <span class="why-check">✔</span>
-            <span class="why-text">Strong B2B data targeting with premium sources</span>
+            <span class="why-text">Access to leading global software providers</span>
         </div>
         <div class="why-item">
             <span class="why-check">✔</span>
-            <span class="why-text">Technology + Sales expertise combined</span>
+            <span class="why-text">Faster, simplified procurement process</span>
         </div>
         <div class="why-item">
             <span class="why-check">✔</span>
-            <span class="why-text">Faster go-to-market execution</span>
+            <span class="why-text">Cost optimization &amp; right-fit solutions</span>
         </div>
         <div class="why-item">
             <span class="why-check">✔</span>
-            <span class="why-text">ROI-focused engagement model</span>
+            <span class="why-text">Built on the trusted legacy of Fundoo Data</span>
         </div>
-    </div>
-</section>
-""", unsafe_allow_html=True)
-
-# ─── INDUSTRIES ──────────────────────────────────────────────────────────────
-st.markdown("""
-<section class="section section-dark">
-    <div class="section-label">Industries We Serve</div>
-    <h2 class="section-title">Across <span class="gradient-text">Every Sector</span></h2>
-    <p class="section-subtitle">We bring our revenue acceleration expertise to businesses across multiple industries.</p>
-    <div class="industry-tags">
-        <div class="industry-tag">🖥️ IT &amp; SaaS</div>
-        <div class="industry-tag">🏭 Manufacturing</div>
-        <div class="industry-tag">🏦 BFSI</div>
-        <div class="industry-tag">🏥 Healthcare</div>
-        <div class="industry-tag">🚀 Startups</div>
-        <div class="industry-tag">🏢 Enterprises</div>
-    </div>
-</section>
-""", unsafe_allow_html=True)
-
-# ─── RESULTS SNAPSHOT ────────────────────────────────────────────────────────
-st.markdown("""
-<section class="section section-darker">
-    <div class="section-label">Results You Can Expect</div>
-    <h2 class="section-title">Numbers That <span class="gradient-text">Speak Louder</span></h2>
-    <div class="metrics-grid">
-        <div class="metric-card">
-            <div class="metric-number">3–4x</div>
-            <div class="metric-label">Pipeline Growth</div>
-        </div>
-        <div class="metric-card">
-            <div class="metric-number">2x</div>
-            <div class="metric-label">Conversion Rate</div>
-        </div>
-        <div class="metric-card">
-            <div class="metric-number">50%</div>
-            <div class="metric-label">Faster Deal Closures</div>
-        </div>
-        <div class="metric-card">
-            <div class="metric-number">100%</div>
-            <div class="metric-label">ROI-Focused</div>
+        <div class="why-item">
+            <span class="why-check">✔</span>
+            <span class="why-text">Outcome-driven, ROI-focused approach</span>
         </div>
     </div>
 </section>
@@ -237,11 +188,11 @@ st.markdown("""
 # ─── CTA BANNER ──────────────────────────────────────────────────────────────
 st.markdown("""
 <section class="cta-banner">
-    <h2 class="cta-title">Ready to Scale Your <span class="gradient-text">Revenue?</span></h2>
-    <p class="cta-sub">Join businesses that are growing faster with Bytewave's proven revenue acceleration system.</p>
+    <h2 class="cta-title">Ready to Choose the <span class="gradient-text">Right Technology?</span></h2>
+    <p class="cta-sub">Let's simplify your software buying journey. No noise. No guesswork. Just the right fit.</p>
     <div class="cta-buttons">
-        <a target="_self" href="/Contact" class="btn-gradient">🚀 Get Started Today</a>
-        <a target="_self" href="/Contact" class="btn-outline">📞 Book a Strategy Call</a>
+        <a target="_self" href="/Contact" class="btn-gradient">📅 Schedule a Consultation</a>
+        <a target="_self" href="/Solutions" class="btn-outline">🔍 Explore Solutions</a>
     </div>
 </section>
 """, unsafe_allow_html=True)
