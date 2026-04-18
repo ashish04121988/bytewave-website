@@ -21,12 +21,14 @@ with hero_left:
         <div style="max-width:700px; z-index:2; position:relative;">
             <div class="hero-eyebrow">Vendor-Neutral IT Software Reseller</div>
             <h1 class="hero-h1">
-                Simplifying Technology Buying<br>
-                for <span class="gradient-text">Modern Businesses</span>
+                Simplifying Technology Decisions.<br>
+                <span class="gradient-text">Maximizing Business Outcomes.</span>
             </h1>
             <p class="hero-sub">
-                Built on the legacy of Fundoo Data, Bytewave Digital helps you identify and procure
-                the right technology &#8212; faster, smarter, and without the noise.
+                We help businesses cut through complexity and choose the right SaaS, cloud, and IT solutions &#8212; without the noise.
+            </p>
+            <p class="hero-sub">
+                Built on the legacy of Fundoo Data, Bytewave Digital is a vendor-neutral IT software reseller helping you identify and procure the right technology &#8212; faster, smarter, and without the noise.
             </p>
             <div class="hero-cta-group">
                 <a target="_self" href="/Solutions" class="btn-gradient">&#128269; Explore Solutions</a>
@@ -125,24 +127,23 @@ with about_left:
         <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:16px;">
             Bytewave Digital was born from the legacy of <strong style="color:#E85D04;">Fundoo Data</strong> &#8212; where we helped
             organizations with deep corporate intelligence and business insights. Through these engagements,
-            we worked closely with SMEs, mid-size companies, and large enterprises.
+            we worked closely with SMEs, mid-size companies, and large enterprises, gaining firsthand visibility into how technology decisions are made.
         </p>
         <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:28px;">
-            We identified a consistent gap &#8212; organizations struggled to find right-fit technology solutions.
-            <strong style="color:#1C1107;">Bytewave Digital was created to simplify that journey.</strong>
+            We identified a consistent gap &#8212; organizations were overwhelmed with choices and struggled to find the right-fit technology solutions aligned to their business needs. <strong style="color:#1C1107;">Bytewave Digital was created to simplify that journey.</strong>
         </p>
         <div style="display:flex; flex-direction:column; gap:10px; margin-bottom:32px;">
             <div style="display:flex; align-items:center; gap:12px; font-size:14px; color:#4A3728;">
                 <span style="color:#E85D04; font-weight:700;">&#10003;</span> Vendor-neutral technology advisory
             </div>
             <div style="display:flex; align-items:center; gap:12px; font-size:14px; color:#4A3728;">
-                <span style="color:#E85D04; font-weight:700;">&#10003;</span> Access to 15+ leading global software partners
+                <span style="color:#E85D04; font-weight:700;">&#10003;</span> Access to leading global software providers
             </div>
             <div style="display:flex; align-items:center; gap:12px; font-size:14px; color:#4A3728;">
-                <span style="color:#E85D04; font-weight:700;">&#10003;</span> Faster, simplified procurement process
+                <span style="color:#E85D04; font-weight:700;">&#10003;</span> Faster, simplified procurement
             </div>
             <div style="display:flex; align-items:center; gap:12px; font-size:14px; color:#4A3728;">
-                <span style="color:#E85D04; font-weight:700;">&#10003;</span> Outcome-driven, ROI-focused approach
+                <span style="color:#E85D04; font-weight:700;">&#10003;</span> Cost optimization and right-fit solutions
             </div>
         </div>
         <a target="_self" href="/About" class="btn-gradient" style="text-decoration:none;">Learn Our Story &#8594;</a>
@@ -509,7 +510,7 @@ with t_c3:
 st.markdown("""
 <section class="cta-banner">
     <h2 class="cta-title">Ready to Choose the <span class="gradient-text">Right Technology?</span></h2>
-    <p class="cta-sub">Let's simplify your software buying journey. No noise. No guesswork. Just the right fit.</p>
+    <p class="cta-sub">Let's simplify your software buying journey.</p>
     <div class="cta-buttons">
         <a target="_self" href="/Contact" class="btn-gradient">&#128197; Schedule a Consultation</a>
         <a target="_self" href="/Solutions" class="btn-outline">&#128269; Explore Solutions</a>

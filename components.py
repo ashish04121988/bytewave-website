@@ -59,8 +59,6 @@ def footer():
                 <ul class="footer-links">
                     <li><a target="_self" href="/Blog">Blog &amp; Insights</a></li>
                     <li><a target="_self" href="/Careers">Careers</a></li>
-                    <li><a target="_self" href="/Contact">Schedule a Consultation</a></li>
-                    <li><a target="_self" href="/Contact">Talk to an Expert</a></li>
                 </ul>
             </div>
             <div>
@@ -70,7 +68,7 @@ def footer():
                     <li><a target="_self" href="/Contact">Explore Solutions</a></li>
                 </ul>
                 <div style="margin-top:20px; display:flex; flex-direction:column; gap:8px;">
-                    <span style="font-size:13px; color:#4A3728;">&#128231; contact@bytewavedigital.com</span>
+                    <span style="font-size:13px; color:#4A3728;">&#128231; nitesh12787@gmail.com</span>
                     <span style="font-size:13px; color:#4A3728;">&#128222; +91-9810773138</span>
                     <span style="font-size:13px; color:#4A3728;">&#128205; Noida, India (Serving Globally)</span>
                     <span style="font-size:13px; color:#4A3728;">&#127760; www.bytewavedigital.com</span>

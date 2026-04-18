@@ -158,9 +158,7 @@ with st.container():
                 <div class="section-label" style="text-align:left;">Solution 01</div>
                 <h3 style="font-size:28px; font-weight:800; color:#1C1107; margin-bottom:14px; letter-spacing:-0.5px;">CRM Solutions</h3>
                 <p style="font-size:15px; color:#6B5E52; line-height:1.8; margin-bottom:16px;">
-                    Select CRM platforms that align with your sales processes, improve customer engagement,
-                    and drive revenue growth. We help you evaluate scalability, integrations, and usability
-                    before making a decision.
+                    Empower your sales organization with CRM platforms that drive pipeline visibility, improve customer engagement, and accelerate revenue growth. We help you evaluate scalability, integrations, and user experience to ensure the right long-term fit for your business.
                 </p>
                 <div style="background:rgba(232,93,4,0.06); border-left:3px solid #E85D04; border-radius:0 8px 8px 0; padding:14px 18px; margin-bottom:20px;">
                     <p style="font-size:14px; color:#4A3728; line-height:1.7; margin:0; font-style:italic;">
@@ -200,8 +198,7 @@ with st.container():
                 <div class="section-label" style="text-align:left;">Solution 02</div>
                 <h3 style="font-size:28px; font-weight:800; color:#1C1107; margin-bottom:14px; letter-spacing:-0.5px;">Marketing Automation Tools</h3>
                 <p style="font-size:15px; color:#6B5E52; line-height:1.8; margin-bottom:16px;">
-                    Navigate the crowded martech landscape with confidence. We guide you in choosing platforms
-                    that enhance lead generation, campaign management, and customer journey orchestration.
+                    Optimize your demand generation with marketing automation platforms that enable personalized engagement at scale. We help you identify solutions that improve lead nurturing, campaign effectiveness, and conversion rates &#8212; driving measurable marketing ROI.
                 </p>
                 <div style="background:rgba(124,58,237,0.06); border-left:3px solid #7C3AED; border-radius:0 8px 8px 0; padding:14px 18px; margin-bottom:20px;">
                     <p style="font-size:14px; color:#4A3728; line-height:1.7; margin:0; font-style:italic;">
@@ -241,8 +238,7 @@ with st.container():
                 <div class="section-label" style="text-align:left;">Solution 03</div>
                 <h3 style="font-size:28px; font-weight:800; color:#1C1107; margin-bottom:14px; letter-spacing:-0.5px;">Cloud &amp; IT Solutions</h3>
                 <p style="font-size:15px; color:#6B5E52; line-height:1.8; margin-bottom:16px;">
-                    Choose the right cloud platforms and infrastructure tools to support scalability and performance.
-                    We evaluate public, private, and hybrid options aligned to your business goals and budget.
+                    Build a scalable and resilient IT foundation with the right cloud and infrastructure solutions. We help you navigate multi-cloud environments, optimize costs, and choose technologies that support performance, security, and long-term agility.
                 </p>
                 <div style="background:rgba(217,119,6,0.06); border-left:3px solid #D97706; border-radius:0 8px 8px 0; padding:14px 18px; margin-bottom:20px;">
                     <p style="font-size:14px; color:#4A3728; line-height:1.7; margin:0; font-style:italic;">
@@ -282,8 +278,7 @@ with st.container():
                 <div class="section-label" style="text-align:left;">Solution 04</div>
                 <h3 style="font-size:28px; font-weight:800; color:#1C1107; margin-bottom:14px; letter-spacing:-0.5px;">Agentic AI Solutions</h3>
                 <p style="font-size:15px; color:#6B5E52; line-height:1.8; margin-bottom:16px;">
-                    Leverage next-generation AI tools that automate workflows, enhance productivity, and drive
-                    intelligent decision-making &#8212; aligned to your specific use cases and ROI targets.
+                    Leverage next-generation AI solutions that go beyond automation to enable intelligent decision-making and task execution. We help you identify use cases and select platforms that drive productivity, innovation, and competitive advantage.
                 </p>
                 <div style="background:rgba(232,93,4,0.06); border-left:3px solid #E85D04; border-radius:0 8px 8px 0; padding:14px 18px; margin-bottom:20px;">
                     <p style="font-size:14px; color:#4A3728; line-height:1.7; margin:0; font-style:italic;">
@@ -323,8 +318,7 @@ with st.container():
                 <div class="section-label" style="text-align:left;">Solution 05</div>
                 <h3 style="font-size:28px; font-weight:800; color:#1C1107; margin-bottom:14px; letter-spacing:-0.5px;">HR &amp; Finance Software</h3>
                 <p style="font-size:15px; color:#6B5E52; line-height:1.8; margin-bottom:16px;">
-                    Enable smarter workforce and financial management with the right tools. We identify solutions
-                    that improve operational efficiency, compliance, and decision-making across HR and finance.
+                    Streamline core business operations with modern HR and finance solutions that enhance efficiency, ensure compliance, and provide real-time insights. We guide you in selecting platforms that align with your organizational structure and growth plans.
                 </p>
                 <div style="background:rgba(124,58,237,0.06); border-left:3px solid #7C3AED; border-radius:0 8px 8px 0; padding:14px 18px; margin-bottom:20px;">
                     <p style="font-size:14px; color:#4A3728; line-height:1.7; margin:0; font-style:italic;">
@@ -364,9 +358,7 @@ with st.container():
                 <div class="section-label" style="text-align:left;">Solution 06</div>
                 <h3 style="font-size:28px; font-weight:800; color:#1C1107; margin-bottom:14px; letter-spacing:-0.5px;">Observability for Cloud-Scale Apps</h3>
                 <p style="font-size:15px; color:#6B5E52; line-height:1.8; margin-bottom:16px;">
-                    Gain complete visibility into your applications and infrastructure. We help you choose
-                    observability platforms that ensure performance, reliability, and faster issue resolution
-                    at cloud scale &#8212; so your teams can act on insights, not guesses.
+                    Gain full visibility into your applications and infrastructure with modern observability platforms. We help you choose solutions that provide real-time insights across logs, metrics, and traces &#8212; ensuring performance, reliability, and faster issue resolution.
                 </p>
                 <div style="background:rgba(217,119,6,0.06); border-left:3px solid #D97706; border-radius:0 8px 8px 0; padding:14px 18px; margin-bottom:20px;">
                     <p style="font-size:14px; color:#4A3728; line-height:1.7; margin:0; font-style:italic;">

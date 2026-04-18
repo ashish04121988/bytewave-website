@@ -38,19 +38,13 @@ with story_left:
             How <span class="gradient-text">Bytewave Digital</span> Came to Be
         </h2>
         <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:20px;">
-            Bytewave Digital was born from the legacy of <strong style="color:#E85D04;">Fundoo Data</strong> &#8212; where we helped
-            organizations with deep corporate intelligence and business insights. Through these engagements,
-            we worked closely with SMEs, mid-size companies, and large enterprises, gaining firsthand
-            visibility into how technology decisions are made across industries.
+            Bytewave Digital was born from the legacy of <strong style="color:#E85D04;">Fundoo Data</strong> &#8212; where we helped organizations with deep corporate intelligence and business insights. Through these engagements, we worked closely with SMEs, mid-size companies, and large enterprises, gaining firsthand visibility into how technology decisions are made.
         </p>
         <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:20px;">
-            We identified a consistent gap &#8212; <strong style="color:#1C1107;">organizations were overwhelmed with choices
-            and struggled to find the right-fit technology solutions aligned to their business needs.</strong>
-            This insight led to the creation of Bytewave Digital.
+            We identified a consistent gap &#8212; <strong style="color:#1C1107;">organizations were overwhelmed with choices and struggled to find the right-fit technology solutions aligned to their business needs.</strong> Too many vendors. Too many tools. Too much noise. This insight led to the creation of Bytewave Digital.
         </p>
         <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:28px;">
-            Today, we serve as a trusted, vendor-neutral advisor &#8212; helping organizations cut through the noise
-            and make technology decisions they can be confident about.
+            At Bytewave Digital, we simplify that journey. We work with organizations to identify, evaluate, and procure the right technology solutions &#8212; aligned to their business goals, not vendor agendas. No implementation. No bias. Just the right decision.
         </p>
         <div style="background:rgba(232,93,4,0.06); border:1px solid rgba(232,93,4,0.2); border-left:4px solid #E85D04; border-radius:0 12px 12px 0; padding:24px 28px; margin-bottom:32px;">
             <p style="font-size:15px; color:#4A3728; line-height:1.7; margin:0; font-style:italic;">
