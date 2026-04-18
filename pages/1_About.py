@@ -28,38 +28,60 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ─── OUR STORY ───────────────────────────────────────────────────────────────
-st.markdown("""
-<section class="section section-darker">
-    <div style="max-width:800px; margin:0 auto;">
+story_left, story_right = st.columns([1.2, 0.8])
+
+with story_left:
+    st.markdown("""
+    <div style="padding: 80px 60px 60px 60px;">
         <div class="section-label" style="text-align:left;">Our Origin</div>
-        <h2 class="section-title" style="text-align:left;">How <span class="gradient-text">Bytewave Digital</span> Came to Be</h2>
-        <p style="font-size:17px; color:#94A3B8; line-height:1.85; margin-bottom:24px;">
+        <h2 style="font-size:clamp(28px,3.5vw,42px); font-weight:800; letter-spacing:-1px; color:#F1F5F9; margin-bottom:24px; line-height:1.15; text-align:left;">
+            How <span class="gradient-text">Bytewave Digital</span> Came to Be
+        </h2>
+        <p style="font-size:16px; color:#94A3B8; line-height:1.85; margin-bottom:20px;">
             Bytewave Digital was born from the legacy of <strong style="color:#93C5FD;">Fundoo Data</strong> — where we helped
-            organizations with deep corporate intelligence and business insights.
+            organizations with deep corporate intelligence and business insights. Through these engagements,
+            we worked closely with SMEs, mid-size companies, and large enterprises, gaining firsthand
+            visibility into how technology decisions are made across industries.
         </p>
-        <p style="font-size:17px; color:#94A3B8; line-height:1.85; margin-bottom:24px;">
-            Through these engagements, we worked closely with SMEs, mid-size companies, and large enterprises,
-            gaining firsthand visibility into how technology decisions are made across industries.
-        </p>
-        <p style="font-size:17px; color:#94A3B8; line-height:1.85; margin-bottom:32px;">
-            We identified a consistent gap — <strong style="color:#E2E8F0;">organizations were overwhelmed with choices and struggled to find
-            the right-fit technology solutions aligned to their business needs.</strong>
+        <p style="font-size:16px; color:#94A3B8; line-height:1.85; margin-bottom:20px;">
+            We identified a consistent gap — <strong style="color:#E2E8F0;">organizations were overwhelmed with choices
+            and struggled to find the right-fit technology solutions aligned to their business needs.</strong>
             This insight led to the creation of Bytewave Digital.
         </p>
-        <div style="background:rgba(37,99,235,0.08); border:1px solid rgba(37,99,235,0.2); border-left:4px solid #2563EB; border-radius:0 12px 12px 0; padding:24px 28px;">
-            <p style="font-size:16px; color:#CBD5E1; line-height:1.7; margin:0; font-style:italic;">
+        <p style="font-size:16px; color:#94A3B8; line-height:1.85; margin-bottom:28px;">
+            Today, we serve as a trusted, vendor-neutral advisor — helping organizations cut through the noise
+            and make technology decisions they can be confident about.
+        </p>
+        <div style="background:rgba(37,99,235,0.08); border:1px solid rgba(37,99,235,0.2); border-left:4px solid #2563EB; border-radius:0 12px 12px 0; padding:24px 28px; margin-bottom:32px;">
+            <p style="font-size:15px; color:#CBD5E1; line-height:1.7; margin:0; font-style:italic;">
                 "We don't build or implement — we help you <strong style="color:#93C5FD;">choose and buy right</strong>."
             </p>
         </div>
+        <div style="display:flex; gap:16px; flex-wrap:wrap;">
+            <a target="_self" href="/Contact" class="btn-gradient" style="text-decoration:none;">📅 Schedule a Consultation</a>
+            <a target="_self" href="/Solutions" class="btn-outline" style="text-decoration:none;">🔍 Explore Solutions</a>
+        </div>
     </div>
-</section>
+    """, unsafe_allow_html=True)
 
-<div class="gradient-divider"></div>
-""", unsafe_allow_html=True)
+with story_right:
+    st.markdown("""
+    <div style="padding: 80px 60px 60px 0;">
+        <div class="about-img" style="height:480px; position:relative;">
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=900&q=80"
+                 style="width:100%; height:100%; object-fit:cover; border-radius:20px;" alt="Bytewave Digital Team" />
+            <div class="about-img-badge">
+                <div class="about-img-badge-num">Est. 2024</div>
+                <div class="about-img-badge-text">Noida, India</div>
+            </div>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
 
-# ─── WHO WE ARE ──────────────────────────────────────────────────────────────
+# ─── MISSION / VISION ────────────────────────────────────────────────────────
 st.markdown("""
-<section class="section section-dark">
+<div class="gradient-divider"></div>
+<section class="section section-darker">
     <div class="section-label">Who We Are</div>
     <h2 class="section-title">A <span class="gradient-text">Vendor-Neutral</span> Technology Advisor</h2>
     <div class="split-cards">
@@ -68,54 +90,73 @@ st.markdown("""
             <div class="split-card-title">Our Mission</div>
             <p style="font-size:15px; color:#94A3B8; line-height:1.7;">
                 To empower organizations to make smarter technology investments through clarity, choice, and confidence.
+                We cut through vendor noise so our clients can focus on outcomes, not options.
             </p>
         </div>
         <div class="split-card">
             <div class="split-card-icon">🌐</div>
             <div class="split-card-title">Our Vision</div>
             <p style="font-size:15px; color:#94A3B8; line-height:1.7;">
-                To become a trusted global partner for technology buying decisions — helping businesses scale through the right software.
+                To become a trusted global partner for technology buying decisions — helping businesses at every
+                stage scale through the right software without guesswork or noise.
             </p>
         </div>
     </div>
 </section>
-
 <div class="gradient-divider"></div>
 """, unsafe_allow_html=True)
 
 # ─── OUR APPROACH ────────────────────────────────────────────────────────────
 st.markdown("""
-<section class="section section-darker">
+<section class="section section-dark">
     <div class="section-label">Our Approach</div>
     <h2 class="section-title">Understand → Curate → <span class="gradient-text">Enable</span></h2>
     <p class="section-subtitle">A simple, transparent process designed to deliver the right technology decision — every time.</p>
-    <div class="process-steps" style="max-width:700px; margin:0 auto;">
-        <div class="process-step" style="width:200px;">
-            <div class="step-number">1</div>
-            <div class="step-title">Understand</div>
-            <div class="step-desc">We analyze your business goals, operational needs, and current technology landscape.</div>
-        </div>
-        <div class="step-connector" style="width:80px;"></div>
-        <div class="process-step" style="width:200px;">
-            <div class="step-number">2</div>
-            <div class="step-title">Curate</div>
-            <div class="step-desc">We shortlist the most relevant technology options from our global ecosystem.</div>
-        </div>
-        <div class="step-connector" style="width:80px;"></div>
-        <div class="process-step" style="width:200px;">
-            <div class="step-number">3</div>
-            <div class="step-title">Enable</div>
-            <div class="step-desc">We help you make an informed decision and connect you with the right vendors.</div>
+</section>
+""", unsafe_allow_html=True)
+
+ap_c1, ap_c2, ap_c3 = st.columns(3)
+
+with ap_c1:
+    st.markdown("""
+    <div style="padding: 0 20px 60px; background: #0B1F3A;">
+        <div class="feature-card">
+            <div class="feature-num">01</div>
+            <div class="feature-icon">🔍</div>
+            <div class="feature-title">Understand</div>
+            <div class="feature-desc">We analyze your business goals, operational needs, and current technology landscape to build a comprehensive picture of what you truly need — without assumptions.</div>
         </div>
     </div>
-</section>
+    """, unsafe_allow_html=True)
 
-<div class="gradient-divider"></div>
-""", unsafe_allow_html=True)
+with ap_c2:
+    st.markdown("""
+    <div style="padding: 0 20px 60px; background: #0B1F3A;">
+        <div class="feature-card">
+            <div class="feature-num">02</div>
+            <div class="feature-icon">🧩</div>
+            <div class="feature-title">Curate</div>
+            <div class="feature-desc">We shortlist the most relevant technology options from our global ecosystem — cutting through thousands of tools to present only the ones that truly fit your needs.</div>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
+
+with ap_c3:
+    st.markdown("""
+    <div style="padding: 0 20px 60px; background: #0B1F3A;">
+        <div class="feature-card">
+            <div class="feature-num">03</div>
+            <div class="feature-icon">🚀</div>
+            <div class="feature-title">Enable</div>
+            <div class="feature-desc">We help you make an informed decision and connect you with the right vendors — guiding procurement, negotiations, and onboarding so you buy right the first time.</div>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
 
 # ─── WHY CHOOSE US ───────────────────────────────────────────────────────────
 st.markdown("""
-<section class="section section-dark">
+<div class="gradient-divider"></div>
+<section class="section section-darker">
     <div class="section-label">Why Us</div>
     <h2 class="section-title">What Makes Us <span class="gradient-text">Different</span></h2>
     <div class="why-grid">
@@ -137,7 +178,7 @@ st.markdown("""
         </div>
         <div class="why-item">
             <span class="why-check">✔</span>
-            <span class="why-text">Faster decision-making, less noise</span>
+            <span class="why-text">Faster decision-making, significantly less noise</span>
         </div>
         <div class="why-item">
             <span class="why-check">✔</span>
