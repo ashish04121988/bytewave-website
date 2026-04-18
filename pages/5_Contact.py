@@ -33,46 +33,46 @@ col_left, col_right = st.columns([1, 1.4], gap="large")
 
 with col_left:
     st.markdown("""
-    <div style="padding:40px 20px 40px 40px;">
-        <h2 style="font-size:32px; font-weight:800; letter-spacing:-1px; line-height:1.2; color:#F1F5F9; margin-bottom:14px;">
+    <div style="padding:40px 20px 40px 40px; background:#FAF8F4;">
+        <h2 style="font-size:32px; font-weight:800; letter-spacing:-1px; line-height:1.2; color:#1C1107; margin-bottom:14px;">
             Let's Simplify Your<br>
-            <span style="background:linear-gradient(135deg,#2563EB,#7C3AED,#F97316);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Technology Journey</span>
+            <span style="background:linear-gradient(135deg,#E85D04,#7C3AED);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Technology Journey</span>
         </h2>
-        <p style="font-size:15px; color:#94A3B8; line-height:1.7; margin-bottom:36px;">
+        <p style="font-size:15px; color:#6B5E52; line-height:1.7; margin-bottom:36px;">
             Whether you need help choosing the right software, building a sales pipeline,
-            or accelerating revenue — we're ready to help. Fill out the form and we'll
+            or accelerating revenue &#8212; we're ready to help. Fill out the form and we'll
             get back to you within 24 hours.
         </p>
         <div style="display:flex; flex-direction:column; gap:16px; margin-bottom:40px;">
             <div style="display:flex; align-items:center; gap:14px;">
-                <div style="width:40px; height:40px; background:rgba(37,99,235,0.15); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0;">📧</div>
-                <span style="font-size:14px; color:#94A3B8;">contact@bytewavedigital.com</span>
+                <div style="width:40px; height:40px; background:rgba(232,93,4,0.1); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0;">&#128231;</div>
+                <span style="font-size:14px; color:#6B5E52;">contact@bytewavedigital.com</span>
             </div>
             <div style="display:flex; align-items:center; gap:14px;">
-                <div style="width:40px; height:40px; background:rgba(37,99,235,0.15); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0;">📞</div>
-                <span style="font-size:14px; color:#94A3B8;">+91-9810773138</span>
+                <div style="width:40px; height:40px; background:rgba(232,93,4,0.1); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0;">&#128222;</div>
+                <span style="font-size:14px; color:#6B5E52;">+91-9810773138</span>
             </div>
             <div style="display:flex; align-items:center; gap:14px;">
-                <div style="width:40px; height:40px; background:rgba(37,99,235,0.15); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0;">📍</div>
-                <span style="font-size:14px; color:#94A3B8;">Noida, India (Serving Globally)</span>
+                <div style="width:40px; height:40px; background:rgba(232,93,4,0.1); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0;">&#128205;</div>
+                <span style="font-size:14px; color:#6B5E52;">Noida, India (Serving Globally)</span>
             </div>
             <div style="display:flex; align-items:center; gap:14px;">
-                <div style="width:40px; height:40px; background:rgba(37,99,235,0.15); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0;">🌐</div>
-                <span style="font-size:14px; color:#94A3B8;">www.bytewavedigital.com</span>
+                <div style="width:40px; height:40px; background:rgba(232,93,4,0.1); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0;">&#127760;</div>
+                <span style="font-size:14px; color:#6B5E52;">www.bytewavedigital.com</span>
             </div>
         </div>
-        <div style="font-size:12px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:#475569; margin-bottom:16px;">What Happens Next?</div>
+        <div style="font-size:12px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:#A89888; margin-bottom:16px;">What Happens Next?</div>
         <div style="display:flex; flex-direction:column; gap:12px;">
-            <div style="display:flex; align-items:center; gap:12px; font-size:14px; color:#94A3B8;">
-                <div style="width:28px; height:28px; border-radius:50%; background:linear-gradient(135deg,#2563EB,#7C3AED); display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:700; color:white; flex-shrink:0;">1</div>
+            <div style="display:flex; align-items:center; gap:12px; font-size:14px; color:#6B5E52;">
+                <div style="width:28px; height:28px; border-radius:50%; background:linear-gradient(135deg,#E85D04,#7C3AED); display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:700; color:white; flex-shrink:0;">1</div>
                 We review your requirements within 24 hours
             </div>
-            <div style="display:flex; align-items:center; gap:12px; font-size:14px; color:#94A3B8;">
-                <div style="width:28px; height:28px; border-radius:50%; background:linear-gradient(135deg,#7C3AED,#F97316); display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:700; color:white; flex-shrink:0;">2</div>
+            <div style="display:flex; align-items:center; gap:12px; font-size:14px; color:#6B5E52;">
+                <div style="width:28px; height:28px; border-radius:50%; background:linear-gradient(135deg,#7C3AED,#D97706); display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:700; color:white; flex-shrink:0;">2</div>
                 We schedule a free 30-min strategy call
             </div>
-            <div style="display:flex; align-items:center; gap:12px; font-size:14px; color:#94A3B8;">
-                <div style="width:28px; height:28px; border-radius:50%; background:linear-gradient(135deg,#F97316,#2563EB); display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:700; color:white; flex-shrink:0;">3</div>
+            <div style="display:flex; align-items:center; gap:12px; font-size:14px; color:#6B5E52;">
+                <div style="width:28px; height:28px; border-radius:50%; background:linear-gradient(135deg,#D97706,#E85D04); display:flex; align-items:center; justify-content:center; font-size:12px; font-weight:700; color:white; flex-shrink:0;">3</div>
                 We curate the right technology options for you
             </div>
         </div>
@@ -81,10 +81,10 @@ with col_left:
 
 with col_right:
     st.markdown("""
-    <div style="background:rgba(13,35,71,0.7); border:1px solid rgba(37,99,235,0.2); border-radius:20px 20px 0 0; padding:28px 32px 12px; position:relative; overflow:hidden; margin-top:40px;">
-        <div style="position:absolute; top:0; left:0; right:0; height:3px; background:linear-gradient(135deg,#2563EB,#7C3AED,#F97316);"></div>
-        <div style="font-size:20px; font-weight:700; color:#F1F5F9;">Send Us a Message</div>
-        <div style="font-size:13px; color:#64748B; margin-top:4px;">We'll respond within 24 hours</div>
+    <div style="background:#FFFFFF; border:1px solid rgba(232,93,4,0.15); border-radius:20px 20px 0 0; padding:28px 32px 12px; position:relative; overflow:hidden; margin-top:40px;">
+        <div style="position:absolute; top:0; left:0; right:0; height:3px; background:linear-gradient(135deg,#E85D04,#7C3AED,#D97706);"></div>
+        <div style="font-size:20px; font-weight:700; color:#1C1107;">Send Us a Message</div>
+        <div style="font-size:13px; color:#A89888; margin-top:4px;">We'll respond within 24 hours</div>
     </div>
     """, unsafe_allow_html=True)
 
@@ -125,39 +125,39 @@ with col_right:
             height=120,
         )
 
-        submitted = st.form_submit_button("🚀 Send Message", use_container_width=True)
+        submitted = st.form_submit_button("&#128640; Send Message", use_container_width=True)
 
         if submitted:
             if name and email and company and requirement != "Select a service..." and message:
                 success, status = send_enquiry_email(name, email, company, phone, requirement, message)
                 if success:
-                    st.success(f"✅ Thank you, **{name}**! Your message has been sent. We'll get back to you within 24 hours.")
+                    st.success(f"&#9989; Thank you, **{name}**! Your message has been sent. We'll get back to you within 24 hours.")
                     st.balloons()
                 elif status == "email_not_configured":
-                    st.error("⚠️ Email not configured. Please check Streamlit secrets — [email] sender and password are missing.")
+                    st.error("&#9888;&#65039; Email not configured. Please check Streamlit secrets &#8212; [email] sender and password are missing.")
                 else:
-                    st.error(f"⚠️ Email failed to send. Error: `{status}`")
+                    st.error(f"&#9888;&#65039; Email failed to send. Error: `{status}`")
             else:
                 st.error("Please fill in all required fields marked with *")
 
 # ─── QUICK ACTIONS ───────────────────────────────────────────────────────────
 st.markdown("""
-<section class="section section-dark">
+<section class="section section-beige">
     <div class="section-label">Quick Actions</div>
     <h2 class="section-title">Other Ways to <span class="gradient-text">Connect</span></h2>
     <div class="cards-grid" style="max-width:800px;">
         <div class="service-card" style="text-align:center;">
-            <span class="card-icon">📅</span>
+            <span class="card-icon">&#128197;</span>
             <div class="card-title">Schedule a Consultation</div>
             <div class="card-desc">Book a free 30-minute call with our technology advisory experts.</div>
         </div>
         <div class="service-card" style="text-align:center;">
-            <span class="card-icon">🔍</span>
+            <span class="card-icon">&#128269;</span>
             <div class="card-title">Explore Solutions</div>
             <div class="card-desc">Browse our full range of technology solutions across categories.</div>
         </div>
         <div class="service-card" style="text-align:center;">
-            <span class="card-icon">🌐</span>
+            <span class="card-icon">&#127760;</span>
             <div class="card-title">Talk to an Expert</div>
             <div class="card-desc">Speak directly with a vendor-neutral technology advisor today.</div>
         </div>

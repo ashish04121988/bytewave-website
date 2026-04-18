@@ -21,7 +21,7 @@ st.markdown("""
     <div class="section-label">How We Help</div>
     <h1 class="section-title">Services Built Around <span class="gradient-text">Your Growth</span></h1>
     <p class="section-subtitle">
-        From technology advisory and software procurement to lead generation and sales execution —
+        From technology advisory and software procurement to lead generation and sales execution &#8212;
         we cover every step of your growth journey.
     </p>
 </div>
@@ -30,7 +30,7 @@ st.markdown("""
 # ─── CORE: IT SOFTWARE RESELLING ─────────────────────────────────────────────
 st.markdown('<div class="gradient-divider"></div>', unsafe_allow_html=True)
 st.markdown("""
-<section class="section section-dark">
+<section class="section section-beige">
     <div class="section-label">Core Service</div>
     <h2 class="section-title" style="text-align:center;">IT Software Reselling <span class="gradient-text">(Core Focus)</span></h2>
     <p class="section-subtitle">
@@ -39,27 +39,27 @@ st.markdown("""
     </p>
     <div class="cards-grid">
         <div class="service-card">
-            <span class="card-icon">🧭</span>
+            <span class="card-icon">&#129517;</span>
             <div class="card-title">Technology Advisory</div>
-            <div class="card-desc">We help you evaluate and compare solutions based on your business needs, ensuring you choose the right fit — not just a popular option.</div>
+            <div class="card-desc">We help you evaluate and compare solutions based on your business needs, ensuring you choose the right fit &#8212; not just a popular option.</div>
         </div>
         <div class="service-card">
-            <span class="card-icon">🛒</span>
+            <span class="card-icon">&#128722;</span>
             <div class="card-title">Software Procurement</div>
             <div class="card-desc">We simplify the purchasing process by connecting you with the right vendors and the most favorable commercial options.</div>
         </div>
         <div class="service-card">
-            <span class="card-icon">⚖️</span>
+            <span class="card-icon">&#9878;&#65039;</span>
             <div class="card-title">Vendor Selection &amp; Comparison</div>
             <div class="card-desc">We cut through the noise and present only the most relevant solutions tailored to your use case, budget, and scale.</div>
         </div>
         <div class="service-card">
-            <span class="card-icon">💰</span>
+            <span class="card-icon">&#128176;</span>
             <div class="card-title">Commercial Optimization</div>
-            <div class="card-desc">We help you get the best value — pricing, licensing, and packaging aligned to your specific needs and usage patterns.</div>
+            <div class="card-desc">We help you get the best value &#8212; pricing, licensing, and packaging aligned to your specific needs and usage patterns.</div>
         </div>
         <div class="service-card">
-            <span class="card-icon">🌐</span>
+            <span class="card-icon">&#127760;</span>
             <div class="card-title">Partner Ecosystem Access</div>
             <div class="card-desc">Leveraging insights built from Fundoo Data, we provide access to a wide network of leading global technology providers through a single point of contact.</div>
         </div>
@@ -70,7 +70,7 @@ st.markdown("""
 # ─── VALUE-ADDED: SALES & REVENUE ────────────────────────────────────────────
 st.markdown('<div class="gradient-divider"></div>', unsafe_allow_html=True)
 st.markdown("""
-<section class="section section-darker">
+<section class="section section-white">
     <div class="section-label">Value-Added Services</div>
     <h2 class="section-title">Sales &amp; <span class="gradient-text">Revenue Services</span></h2>
     <p class="section-subtitle">
@@ -79,7 +79,7 @@ st.markdown("""
     </p>
     <div class="cards-grid">
         <div class="service-card">
-            <span class="card-icon">📈</span>
+            <span class="card-icon">&#128200;</span>
             <div class="card-title">Lead Generation</div>
             <div class="card-desc">Build a targeted, high-quality pipeline of prospects using data-driven strategies.</div>
             <ul class="card-bullets">
@@ -89,7 +89,7 @@ st.markdown("""
             </ul>
         </div>
         <div class="service-card">
-            <span class="card-icon">📞</span>
+            <span class="card-icon">&#128222;</span>
             <div class="card-title">SDR Services</div>
             <div class="card-desc">We act as your front-line sales engine, handling outreach and appointment setting at scale.</div>
             <ul class="card-bullets">
@@ -99,7 +99,7 @@ st.markdown("""
             </ul>
         </div>
         <div class="service-card">
-            <span class="card-icon">🔥</span>
+            <span class="card-icon">&#128293;</span>
             <div class="card-title">Sales Execution</div>
             <div class="card-desc">We help move opportunities forward and convert pipeline into closed deals.</div>
             <ul class="card-bullets">
@@ -109,7 +109,7 @@ st.markdown("""
             </ul>
         </div>
         <div class="service-card">
-            <span class="card-icon">🏆</span>
+            <span class="card-icon">&#127942;</span>
             <div class="card-title">Deal Closure Support</div>
             <div class="card-desc">We help convert pipeline into revenue through negotiation and closing strategy.</div>
             <ul class="card-bullets">
@@ -125,26 +125,26 @@ st.markdown("""
 # ─── ENGAGEMENT MODELS ───────────────────────────────────────────────────────
 st.markdown('<div class="gradient-divider"></div>', unsafe_allow_html=True)
 st.markdown("""
-<section class="section section-dark">
+<section class="section section-beige">
     <div class="section-label">Engagement Models</div>
     <h2 class="section-title">Flexible Models Built for <span class="gradient-text">Your Needs</span></h2>
     <p class="section-subtitle">We offer flexible engagement models based on your business goals and growth stage.</p>
     <div class="pricing-grid">
         <div class="pricing-card">
-            <div class="pricing-card-icon">🟢</div>
+            <div class="pricing-card-icon">&#128994;</div>
             <div class="pricing-card-title">Reseller Model</div>
-            <div class="pricing-card-subtitle">Primary engagement — technology first</div>
+            <div class="pricing-card-subtitle">Primary engagement &#8212; technology first</div>
             <ul class="pricing-features">
-                <li>Software procurement & licensing</li>
+                <li>Software procurement &amp; licensing</li>
                 <li>Implementation support</li>
-                <li>Vendor selection & comparison</li>
+                <li>Vendor selection &amp; comparison</li>
                 <li>Commercial optimization</li>
                 <li>Partner ecosystem access</li>
             </ul>
-            <a target="_self" href="/Contact" class="pricing-cta secondary">Get Started →</a>
+            <a target="_self" href="/Contact" class="pricing-cta secondary">Get Started &#8594;</a>
         </div>
         <div class="pricing-card featured">
-            <div class="pricing-card-icon">🔴</div>
+            <div class="pricing-card-icon">&#128308;</div>
             <div class="pricing-card-title">Hybrid Model</div>
             <div class="pricing-card-subtitle">Technology + Sales = End-to-End Growth</div>
             <ul class="pricing-features">
@@ -155,20 +155,20 @@ st.markdown("""
                 <li>Deal closure support</li>
                 <li>Revenue acceleration</li>
             </ul>
-            <a target="_self" href="/Contact" class="pricing-cta primary">Get Started →</a>
+            <a target="_self" href="/Contact" class="pricing-cta primary">Get Started &#8594;</a>
         </div>
         <div class="pricing-card">
-            <div class="pricing-card-icon">🔵</div>
+            <div class="pricing-card-icon">&#128309;</div>
             <div class="pricing-card-title">Service Model</div>
             <div class="pricing-card-subtitle">Sales execution focused</div>
             <ul class="pricing-features">
                 <li>Lead generation campaigns</li>
-                <li>SDR & outreach services</li>
+                <li>SDR &amp; outreach services</li>
                 <li>Sales pipeline management</li>
                 <li>Deal closure support</li>
                 <li>Revenue conversion</li>
             </ul>
-            <a target="_self" href="/Contact" class="pricing-cta secondary">Get Started →</a>
+            <a target="_self" href="/Contact" class="pricing-cta secondary">Get Started &#8594;</a>
         </div>
     </div>
 </section>
@@ -180,8 +180,8 @@ st.markdown("""
     <h2 class="cta-title">Let's Build a Plan That <span class="gradient-text">Works for You</span></h2>
     <p class="cta-sub">Every business is different. Let's talk and design the right engagement model together.</p>
     <div class="cta-buttons">
-        <a target="_self" href="/Contact" class="btn-gradient">📞 Book Strategy Call</a>
-        <a target="_self" href="/Solutions" class="btn-outline">🔍 Explore Solutions</a>
+        <a target="_self" href="/Contact" class="btn-gradient">&#128222; Book Strategy Call</a>
+        <a target="_self" href="/Solutions" class="btn-outline">&#128269; Explore Solutions</a>
     </div>
 </section>
 """, unsafe_allow_html=True)

@@ -11,7 +11,7 @@ def navbar(active_page="Home"):
     }
     nav_links = ""
     for name, path in pages.items():
-        active_style = "color:#E2E8F0 !important;" if name == active_page else ""
+        active_style = "color:#E85D04 !important; font-weight:700;" if name == active_page else ""
         nav_links += f'<a target="_self" href="{path}" style="{active_style}">{name}</a>'
 
     st.markdown(f"""
@@ -20,9 +20,9 @@ def navbar(active_page="Home"):
             <div class="navbar-logo">⚡ BYTEWAVE DIGITAL</div>
             <div class="navbar-tagline">Right Technology. No Noise.</div>
         </div>
-        <div style="display:flex; gap:36px; align-items:center;">
+        <div style="display:flex; gap:36px; align-items:center;" class="navbar-links">
             {nav_links}
-            <a target="_self" href="/Contact" class="btn-gradient" style="text-decoration:none; padding:10px 22px; border-radius:8px; font-weight:600; font-size:13px; color:white; background:linear-gradient(135deg,#2563EB,#7C3AED);">Schedule a Consultation</a>
+            <a target="_self" href="/Contact" class="btn-gradient" style="text-decoration:none; padding:10px 22px; border-radius:8px; font-weight:700; font-size:13px; color:white; background:linear-gradient(135deg,#E85D04,#7C3AED);">Schedule a Consultation</a>
         </div>
     </nav>
     """, unsafe_allow_html=True)
@@ -38,8 +38,8 @@ def footer():
                     Born from the legacy of Fundoo Data, Bytewave Digital is a vendor-neutral IT software reseller helping organizations identify, evaluate, and procure the right technology solutions.
                 </div>
                 <div style="margin-top:24px; display:flex; gap:12px;">
-                    <a target="_self" href="#" style="width:36px; height:36px; background:rgba(37,99,235,0.15); border:1px solid rgba(37,99,235,0.3); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:14px; text-decoration:none; color:#94A3B8;">in</a>
-                    <a target="_self" href="#" style="width:36px; height:36px; background:rgba(37,99,235,0.15); border:1px solid rgba(37,99,235,0.3); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:14px; text-decoration:none; color:#94A3B8;">𝕏</a>
+                    <a target="_self" href="#" style="width:36px; height:36px; background:rgba(232,93,4,0.12); border:1px solid rgba(232,93,4,0.25); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:14px; text-decoration:none; color:#A89888;">in</a>
+                    <a target="_self" href="#" style="width:36px; height:36px; background:rgba(232,93,4,0.12); border:1px solid rgba(232,93,4,0.25); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:14px; text-decoration:none; color:#A89888;">&#120143;</a>
                 </div>
             </div>
             <div>
@@ -60,14 +60,14 @@ def footer():
                     <li><a target="_self" href="/Contact">Explore Solutions</a></li>
                 </ul>
                 <div style="margin-top:20px; display:flex; flex-direction:column; gap:8px;">
-                    <span style="font-size:13px; color:#64748B;">📧 contact@bytewavedigital.com</span>
-                    <span style="font-size:13px; color:#64748B;">📞 +91-9810773138</span>
-                    <span style="font-size:13px; color:#64748B;">📍 Noida, India</span>
+                    <span style="font-size:13px; color:#6B5E52;">&#128231; contact@bytewavedigital.com</span>
+                    <span style="font-size:13px; color:#6B5E52;">&#128222; +91-9810773138</span>
+                    <span style="font-size:13px; color:#6B5E52;">&#128205; Noida, India</span>
                 </div>
             </div>
         </div>
         <div class="footer-bottom">
-            <div class="footer-copy">© 2024 Bytewave Digital. All rights reserved.</div>
+            <div class="footer-copy">&#169; 2024 Bytewave Digital. All rights reserved.</div>
             <div class="footer-bottom-tagline">Right Technology. No Noise.</div>
         </div>
     </footer>
