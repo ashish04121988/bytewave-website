@@ -12,7 +12,7 @@ GLOBAL_CSS = """<style>
 
     /* Hide Streamlit defaults */
     #MainMenu { visibility: hidden; }
-    footer { visibility: hidden; }
+    [data-testid="stFooter"] { visibility: hidden; }
     header { visibility: hidden; }
     .stDeployButton { display: none; }
     [data-testid="stToolbar"] { display: none; }
@@ -694,8 +694,8 @@ GLOBAL_CSS = """<style>
     }
     .footer-grid {
         display: grid;
-        grid-template-columns: 1.5fr 1fr 1fr;
-        gap: 60px; margin-bottom: 48px;
+        grid-template-columns: 1.6fr 1fr 1fr 1fr;
+        gap: 48px; margin-bottom: 48px;
     }
     .footer-logo {
         font-size: 22px; font-weight: 800;
@@ -877,6 +877,92 @@ GLOBAL_CSS = """<style>
         border-radius: 20px; padding: 40px;
         box-shadow: 0 4px 24px rgba(28,17,7,0.06);
     }
+
+    /* ===== BLOG CARDS ===== */
+    .blog-card {
+        background: #FFFFFF;
+        border: 1px solid rgba(232,93,4,0.12);
+        border-radius: 16px; overflow: hidden;
+        transition: all 0.35s;
+        box-shadow: 0 4px 20px rgba(28,17,7,0.05);
+    }
+    .blog-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 20px 60px rgba(232,93,4,0.14);
+        border-color: rgba(232,93,4,0.25);
+    }
+    .blog-card-img { width: 100%; height: 200px; object-fit: cover; display: block; transition: transform 0.5s; }
+    .blog-card:hover .blog-card-img { transform: scale(1.04); }
+    .blog-card-body { padding: 24px; }
+    .blog-tag {
+        display: inline-block;
+        background: rgba(232,93,4,0.08);
+        border: 1px solid rgba(232,93,4,0.2);
+        color: #E85D04; font-size: 11px; font-weight: 700;
+        letter-spacing: 1.5px; text-transform: uppercase;
+        padding: 4px 12px; border-radius: 100px; margin-bottom: 12px;
+    }
+    .blog-card-title { font-size: 17px; font-weight: 700; color: #1C1107; margin-bottom: 10px; line-height: 1.4; }
+    .blog-card-excerpt { font-size: 14px; color: #6B5E52; line-height: 1.7; margin-bottom: 16px; }
+    .blog-card-meta { font-size: 12px; color: #A89888; display: flex; align-items: center; gap: 12px; }
+    .blog-featured {
+        border-radius: 20px; overflow: hidden; position: relative;
+        height: 400px; transition: all 0.4s;
+        box-shadow: 0 8px 40px rgba(28,17,7,0.12);
+    }
+    .blog-featured:hover { transform: translateY(-5px); box-shadow: 0 24px 70px rgba(232,93,4,0.2); }
+    .blog-featured img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s; }
+    .blog-featured:hover img { transform: scale(1.04); }
+    .blog-featured-overlay {
+        position: absolute; inset: 0;
+        background: linear-gradient(180deg, rgba(28,14,5,0.05) 0%, rgba(28,14,5,0.88) 100%);
+        display: flex; flex-direction: column; justify-content: flex-end; padding: 36px;
+    }
+
+    /* ===== CAREER CARDS ===== */
+    .career-card {
+        background: #FFFFFF;
+        border: 1px solid rgba(232,93,4,0.12);
+        border-radius: 16px; padding: 28px 32px;
+        transition: all 0.35s;
+        box-shadow: 0 4px 20px rgba(28,17,7,0.05);
+        display: flex; align-items: flex-start; gap: 20px;
+    }
+    .career-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 16px 50px rgba(232,93,4,0.12);
+        border-color: rgba(232,93,4,0.3);
+    }
+    .career-card-icon {
+        flex-shrink: 0; width: 56px; height: 56px;
+        background: linear-gradient(135deg,rgba(232,93,4,0.1),rgba(124,58,237,0.1));
+        border-radius: 14px; font-size: 26px;
+        display: flex; align-items: center; justify-content: center;
+    }
+    .career-card-title { font-size: 18px; font-weight: 700; color: #1C1107; margin-bottom: 6px; }
+    .career-card-dept { font-size: 13px; color: #E85D04; font-weight: 600; margin-bottom: 10px; }
+    .career-card-desc { font-size: 14px; color: #6B5E52; line-height: 1.7; margin-bottom: 14px; }
+    .career-badge {
+        display: inline-block; font-size: 11px; font-weight: 600;
+        padding: 4px 12px; border-radius: 100px; margin-right: 8px; margin-bottom: 4px;
+    }
+    .career-badge.location { background: rgba(124,58,237,0.08); color: #7C3AED; border: 1px solid rgba(124,58,237,0.2); }
+    .career-badge.type { background: rgba(232,93,4,0.08); color: #E85D04; border: 1px solid rgba(232,93,4,0.2); }
+    .career-value-card {
+        background: #FFFFFF;
+        border: 1px solid rgba(232,93,4,0.12);
+        border-radius: 20px; padding: 36px 28px; text-align: center;
+        transition: all 0.35s;
+        box-shadow: 0 4px 20px rgba(28,17,7,0.05);
+    }
+    .career-value-card:hover {
+        border-color: rgba(232,93,4,0.3);
+        box-shadow: 0 16px 50px rgba(232,93,4,0.1);
+        transform: translateY(-5px);
+    }
+    .career-value-icon { font-size: 44px; margin-bottom: 16px; }
+    .career-value-title { font-size: 18px; font-weight: 700; color: #1C1107; margin-bottom: 12px; }
+    .career-value-desc { font-size: 14px; color: #6B5E52; line-height: 1.7; }
 
     /* ===== ANIMATIONS ===== */
     @keyframes fadeInUp {

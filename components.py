@@ -7,7 +7,8 @@ def navbar(active_page="Home"):
         "Solutions": "/Solutions",
         "Services": "/Services",
         "Industries": "/Industries",
-        "Contact": "/Contact",
+        "Blog": "/Blog",
+        "Careers": "/Careers",
     }
     nav_links = ""
     for name, path in pages.items():
@@ -20,7 +21,7 @@ def navbar(active_page="Home"):
             <div class="navbar-logo">⚡ BYTEWAVE DIGITAL</div>
             <div class="navbar-tagline">Right Technology. No Noise.</div>
         </div>
-        <div style="display:flex; gap:36px; align-items:center;" class="navbar-links">
+        <div style="display:flex; gap:28px; align-items:center;" class="navbar-links">
             {nav_links}
             <a target="_self" href="/Contact" class="btn-gradient" style="text-decoration:none; padding:10px 22px; border-radius:8px; font-weight:700; font-size:13px; color:white; background:linear-gradient(135deg,#E85D04,#7C3AED);">Schedule a Consultation</a>
         </div>
@@ -30,7 +31,7 @@ def navbar(active_page="Home"):
 
 def footer():
     st.markdown("""
-    <footer class="footer">
+    <div class="footer">
         <div class="footer-grid">
             <div>
                 <div class="footer-logo">⚡ BYTEWAVE DIGITAL</div>
@@ -50,19 +51,29 @@ def footer():
                     <li><a target="_self" href="/Solutions">Solutions</a></li>
                     <li><a target="_self" href="/Services">Services</a></li>
                     <li><a target="_self" href="/Industries">Industries</a></li>
+                    <li><a target="_self" href="/Contact">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="footer-heading">Resources</div>
+                <ul class="footer-links">
+                    <li><a target="_self" href="/Blog">Blog &amp; Insights</a></li>
+                    <li><a target="_self" href="/Careers">Careers</a></li>
+                    <li><a target="_self" href="/Contact">Schedule a Consultation</a></li>
+                    <li><a target="_self" href="/Contact">Talk to an Expert</a></li>
                 </ul>
             </div>
             <div>
                 <div class="footer-heading">Get In Touch</div>
                 <ul class="footer-links">
-                    <li><a target="_self" href="/Contact">Schedule a Consultation</a></li>
-                    <li><a target="_self" href="/Contact">Talk to an Expert</a></li>
+                    <li><a target="_self" href="/Contact">Send Us a Message</a></li>
                     <li><a target="_self" href="/Contact">Explore Solutions</a></li>
                 </ul>
                 <div style="margin-top:20px; display:flex; flex-direction:column; gap:8px;">
                     <span style="font-size:13px; color:#6B5E52;">&#128231; contact@bytewavedigital.com</span>
                     <span style="font-size:13px; color:#6B5E52;">&#128222; +91-9810773138</span>
-                    <span style="font-size:13px; color:#6B5E52;">&#128205; Noida, India</span>
+                    <span style="font-size:13px; color:#6B5E52;">&#128205; Noida, India (Serving Globally)</span>
+                    <span style="font-size:13px; color:#6B5E52;">&#127760; www.bytewavedigital.com</span>
                 </div>
             </div>
         </div>
@@ -70,5 +81,5 @@ def footer():
             <div class="footer-copy">&#169; 2024 Bytewave Digital. All rights reserved.</div>
             <div class="footer-bottom-tagline">Right Technology. No Noise.</div>
         </div>
-    </footer>
+    </div>
     """, unsafe_allow_html=True)
