@@ -39,8 +39,8 @@ def footer():
                     Born from the legacy of Fundoo Data, Bytewave Digital is a vendor-neutral IT software reseller helping organizations identify, evaluate, and procure the right technology solutions.
                 </div>
                 <div style="margin-top:24px; display:flex; gap:12px;">
-                    <a target="_self" href="#" style="width:36px; height:36px; background:rgba(232,93,4,0.12); border:1px solid rgba(232,93,4,0.25); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:14px; text-decoration:none; color:#A89888;">in</a>
-                    <a target="_self" href="#" style="width:36px; height:36px; background:rgba(232,93,4,0.12); border:1px solid rgba(232,93,4,0.25); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:14px; text-decoration:none; color:#A89888;">&#120143;</a>
+                    <a target="_self" href="#" style="width:36px; height:36px; background:#FFFFFF; border:1px solid rgba(232,93,4,0.3); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:14px; text-decoration:none; color:#E85D04; font-weight:700;">in</a>
+                    <a target="_self" href="#" style="width:36px; height:36px; background:#FFFFFF; border:1px solid rgba(232,93,4,0.3); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:14px; text-decoration:none; color:#E85D04; font-weight:700;">&#120143;</a>
                 </div>
             </div>
             <div>
@@ -70,10 +70,10 @@ def footer():
                     <li><a target="_self" href="/Contact">Explore Solutions</a></li>
                 </ul>
                 <div style="margin-top:20px; display:flex; flex-direction:column; gap:8px;">
-                    <span style="font-size:13px; color:#6B5E52;">&#128231; contact@bytewavedigital.com</span>
-                    <span style="font-size:13px; color:#6B5E52;">&#128222; +91-9810773138</span>
-                    <span style="font-size:13px; color:#6B5E52;">&#128205; Noida, India (Serving Globally)</span>
-                    <span style="font-size:13px; color:#6B5E52;">&#127760; www.bytewavedigital.com</span>
+                    <span style="font-size:13px; color:#4A3728;">&#128231; contact@bytewavedigital.com</span>
+                    <span style="font-size:13px; color:#4A3728;">&#128222; +91-9810773138</span>
+                    <span style="font-size:13px; color:#4A3728;">&#128205; Noida, India (Serving Globally)</span>
+                    <span style="font-size:13px; color:#4A3728;">&#127760; www.bytewavedigital.com</span>
                 </div>
             </div>
         </div>

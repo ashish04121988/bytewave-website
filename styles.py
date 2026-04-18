@@ -645,24 +645,30 @@ GLOBAL_CSS = """<style>
     .step-title { font-size: 15px; font-weight: 700; color: #1C1107; margin-bottom: 6px; }
     .step-desc { font-size: 12px; color: #A89888; line-height: 1.5; padding: 0 8px; }
 
-    /* ===== CTA BANNER (DARK - one dark section for contrast) ===== */
+    /* ===== CTA BANNER (BRIGHT BEIGE) ===== */
     .cta-banner {
-        background: linear-gradient(135deg, #1A0E05 0%, #2D1A0E 50%, #1A0E05 100%);
+        background: linear-gradient(135deg, #FFF5EE 0%, #FEF0E6 50%, #FFF5EE 100%);
         padding: 80px 60px; text-align: center; position: relative; overflow: hidden;
-        border-top: 1px solid rgba(232,93,4,0.3);
+        border-top: 2px solid rgba(232,93,4,0.15);
+        border-bottom: 1px solid rgba(232,93,4,0.1);
     }
     .cta-banner::before {
         content: ''; position: absolute; top: 50%; left: 50%;
         transform: translate(-50%,-50%);
         width: 600px; height: 300px;
-        background: radial-gradient(ellipse, rgba(232,93,4,0.12) 0%, transparent 70%);
+        background: radial-gradient(ellipse, rgba(232,93,4,0.1) 0%, transparent 70%);
+    }
+    .cta-banner::after {
+        content: ''; position: absolute; top: -80px; right: 8%;
+        width: 300px; height: 300px; border-radius: 50%;
+        background: radial-gradient(circle, rgba(124,58,237,0.07) 0%, transparent 70%);
     }
     .cta-title {
         font-size: clamp(28px,4vw,46px); font-weight: 800; letter-spacing: -1px;
-        color: #FAF8F4; margin-bottom: 16px; position: relative; z-index: 2;
+        color: #1C1107; margin-bottom: 16px; position: relative; z-index: 2;
     }
     .cta-sub {
-        font-size: 17px; color: rgba(250,248,244,0.7);
+        font-size: 17px; color: #6B5E52;
         margin-bottom: 40px; position: relative; z-index: 2;
     }
     .cta-buttons {
@@ -686,10 +692,10 @@ GLOBAL_CSS = """<style>
     .about-img-badge-num { font-size: 28px; font-weight: 900; color: white; }
     .about-img-badge-text { font-size: 12px; color: rgba(255,255,255,0.85); }
 
-    /* ===== FOOTER (DARK) ===== */
+    /* ===== FOOTER (BRIGHT BEIGE) ===== */
     .footer {
-        background: #1A0E05;
-        border-top: 1px solid rgba(232,93,4,0.2);
+        background: #FFF5EE;
+        border-top: 2px solid rgba(232,93,4,0.15);
         padding: 60px 60px 30px;
     }
     .footer-grid {
@@ -699,7 +705,7 @@ GLOBAL_CSS = """<style>
     }
     .footer-logo {
         font-size: 22px; font-weight: 800;
-        background: linear-gradient(135deg, #E85D04, #D97706);
+        background: linear-gradient(135deg, #E85D04, #7C3AED);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
@@ -708,17 +714,17 @@ GLOBAL_CSS = """<style>
     .footer-tagline { font-size: 13px; color: #6B5E52; line-height: 1.7; max-width: 260px; }
     .footer-heading {
         font-size: 12px; font-weight: 700; letter-spacing: 2px;
-        text-transform: uppercase; color: #4A3728; margin-bottom: 20px;
+        text-transform: uppercase; color: #E85D04; margin-bottom: 20px;
     }
     .footer-links { list-style: none; display: flex; flex-direction: column; gap: 10px; }
     .footer-links a { font-size: 14px; color: #6B5E52; text-decoration: none; transition: color 0.3s; }
     .footer-links a:hover { color: #E85D04; }
     .footer-bottom {
-        border-top: 1px solid rgba(232,93,4,0.1); padding-top: 24px;
+        border-top: 1px solid rgba(232,93,4,0.15); padding-top: 24px;
         display: flex; justify-content: space-between; align-items: center;
     }
-    .footer-copy { font-size: 13px; color: #4A3728; }
-    .footer-bottom-tagline { font-size: 13px; color: #4A3728; font-style: italic; }
+    .footer-copy { font-size: 13px; color: #A89888; }
+    .footer-bottom-tagline { font-size: 13px; color: #A89888; font-style: italic; }
 
     /* ===== PRICING CARDS ===== */
     .pricing-grid {
