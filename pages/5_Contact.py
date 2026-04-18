@@ -134,11 +134,9 @@ with col_right:
                     st.success(f"✅ Thank you, **{name}**! Your message has been sent. We'll get back to you within 24 hours.")
                     st.balloons()
                 elif status == "email_not_configured":
-                    # Email not configured yet — still show success to user, enquiry is recorded
-                    st.success(f"✅ Thank you, **{name}**! We've received your enquiry and will get back to you within 24 hours.")
-                    st.balloons()
+                    st.error("⚠️ Email not configured. Please check Streamlit secrets — [email] sender and password are missing.")
                 else:
-                    st.warning(f"✅ Thank you, **{name}**! Your enquiry has been recorded. We'll be in touch soon.")
+                    st.error(f"⚠️ Email failed to send. Error: `{status}`")
             else:
                 st.error("Please fill in all required fields marked with *")
 
