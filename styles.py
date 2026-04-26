@@ -19,6 +19,27 @@ GLOBAL_CSS = """<style>
     [data-testid="stDecoration"] { display: none; }
     [data-testid="stStatusWidget"] { display: none; }
 
+    /* Hide sidebar and its toggle arrow completely */
+    [data-testid="stSidebar"] { display: none !important; }
+    [data-testid="collapsedControl"] { display: none !important; }
+    [data-testid="stSidebarCollapsedControl"] { display: none !important; }
+    section[data-testid="stSidebar"] { display: none !important; }
+    button[kind="header"] { display: none !important; }
+
+    /* Force full color vibrancy — overrides HF iframe CSS */
+    [data-testid="stApp"] {
+        opacity: 1 !important;
+        filter: none !important;
+        background-color: #FAF8F4 !important;
+    }
+    .gradient-text {
+        background: linear-gradient(135deg, #E85D04, #7C3AED) !important;
+        -webkit-background-clip: text !important;
+        -webkit-text-fill-color: transparent !important;
+        background-clip: text !important;
+        opacity: 1 !important;
+    }
+
     /* Remove default padding */
     .block-container {
         padding-top: 0 !important;

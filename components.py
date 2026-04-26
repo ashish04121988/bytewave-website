@@ -1,8 +1,8 @@
 import streamlit as st
 import base64, os
 
-def _logo_b64():
-    base_dir = os.path.dirname(__file__)
+def _load_logo():
+    base_dir = os.path.dirname(os.path.abspath(__file__))
     txt_path = os.path.join(base_dir, 'assets', 'logo_b64.txt')
     png_path = os.path.join(base_dir, 'assets', 'logo.png')
     try:
@@ -15,6 +15,12 @@ def _logo_b64():
             return base64.b64encode(f.read()).decode()
     except FileNotFoundError:
         return ""
+
+# Load once at import time — avoids reading 716KB on every render
+_LOGO_B64 = _load_logo()
+
+def _logo_b64():
+    return _LOGO_B64
 
 def navbar(active_page="Home"):
     pages = {
