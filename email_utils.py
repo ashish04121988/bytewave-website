@@ -1,4 +1,5 @@
 import smtplib
+import os
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import streamlit as st
@@ -6,19 +7,15 @@ import streamlit as st
 TO_EMAILS = ["bytewavedigi@gmail.com", "ashish.0412@gmail.com"]
 
 def send_enquiry_email(name, email, company, phone, requirement, message):
-    """
-    Send enquiry email via Gmail SMTP.
-    Requires Streamlit secrets:
-        [email]
-        sender = "your_sender@gmail.com"
-        password = "your_app_password"   # Gmail App Password (not account password)
-    """
-    try:
-        sender = st.secrets["email"]["sender"]
-        password = st.secrets["email"]["password"]
-    except Exception:
-        # Secrets not configured — log locally but don't crash the UI
-        return False, "email_not_configured"
+    # Try Render environment variables first, fall back to Streamlit secrets (local dev)
+    sender = os.environ.get("EMAIL_SENDER")
+    password = os.environ.get("EMAIL_PASSWORD")
+    if not sender or not password:
+        try:
+            sender = st.secrets["email"]["sender"]
+            password = st.secrets["email"]["password"]
+        except Exception:
+            return False, "email_not_configured"
 
     subject = f"New Enquiry from {name} — Bytewave Digital Website"
 
