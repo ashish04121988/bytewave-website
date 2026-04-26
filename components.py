@@ -2,9 +2,16 @@ import streamlit as st
 import base64, os
 
 def _logo_b64():
-    logo_path = os.path.join(os.path.dirname(__file__), 'assets', 'logo.png')
+    base_dir = os.path.dirname(__file__)
+    txt_path = os.path.join(base_dir, 'assets', 'logo_b64.txt')
+    png_path = os.path.join(base_dir, 'assets', 'logo.png')
     try:
-        with open(logo_path, 'rb') as f:
+        with open(txt_path, 'r') as f:
+            return f.read().strip()
+    except FileNotFoundError:
+        pass
+    try:
+        with open(png_path, 'rb') as f:
             return base64.b64encode(f.read()).decode()
     except FileNotFoundError:
         return ""
