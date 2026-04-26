@@ -116,7 +116,7 @@ GLOBAL_CSS = """<style>
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 10px 60px;
+        padding: 10px 40px;
         background: rgba(250,248,244,0.98);
         backdrop-filter: blur(20px);
         border-bottom: 1px solid rgba(232,93,4,0.12);
@@ -152,7 +152,7 @@ GLOBAL_CSS = """<style>
     .navbar-links a {
         color: #4A3728;
         text-decoration: none;
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 500;
         transition: color 0.3s;
     }

@@ -37,7 +37,7 @@ def navbar(active_page="Home"):
                 <div class="navbar-tagline">Right Technology. No Noise.</div>
             </div>
         </div>
-        <div style="display:flex; gap:28px; align-items:center;" class="navbar-links">
+        <div style="display:flex; gap:18px; align-items:center;" class="navbar-links">
             {nav_links}
             <a target="_self" href="/Contact" class="btn-gradient" style="text-decoration:none; padding:10px 22px; border-radius:8px; font-weight:700; font-size:13px; color:white; background:linear-gradient(135deg,#E85D04,#7C3AED);">Schedule a Consultation</a>
         </div>
