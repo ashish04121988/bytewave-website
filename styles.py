@@ -1026,6 +1026,74 @@ GLOBAL_CSS = """<style>
         50% { transform: scale(1.4); opacity: 0.6; }
     }
 
+    /* ===== HAMBURGER MENU — CSS-only checkbox toggle ===== */
+    /* Hidden checkbox that drives the open/close state */
+    .nav-toggle-cb { display: none !important; }
+
+    /* Hamburger label — hidden on desktop */
+    .nav-hamburger {
+        display: none;
+        flex-direction: column;
+        gap: 5px;
+        cursor: pointer;
+        padding: 8px;
+        z-index: 10001;
+    }
+    .nav-hamburger span {
+        display: block;
+        width: 24px;
+        height: 2px;
+        background: #E85D04;
+        border-radius: 2px;
+        transition: transform 0.3s, opacity 0.3s;
+    }
+    /* Animate to X when menu is open */
+    .nav-toggle-cb:checked ~ .navbar .nav-hamburger span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-toggle-cb:checked ~ .navbar .nav-hamburger span:nth-child(2) { opacity: 0; }
+    .nav-toggle-cb:checked ~ .navbar .nav-hamburger span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* Mobile dropdown menu — hidden by default */
+    .mobile-nav-menu {
+        display: none;
+        position: fixed;
+        top: 72px;
+        left: 0;
+        right: 0;
+        background: #FFFFFF;
+        padding: 12px 20px 20px;
+        box-shadow: 0 8px 32px rgba(28,17,7,0.12);
+        z-index: 9998;
+        flex-direction: column;
+        gap: 0;
+        border-top: 2px solid rgba(232,93,4,0.15);
+    }
+    /* Show menu when checkbox is checked */
+    .nav-toggle-cb:checked ~ .mobile-nav-menu { display: flex !important; }
+
+    .mobile-nav-link {
+        display: block;
+        padding: 14px 8px;
+        font-size: 15px;
+        font-weight: 500;
+        color: #1C1107 !important;
+        text-decoration: none !important;
+        border-bottom: 1px solid rgba(232,93,4,0.08);
+        transition: color 0.2s, background 0.2s;
+    }
+    .mobile-nav-link:hover { color: #E85D04 !important; background: rgba(232,93,4,0.04); }
+    .mobile-nav-cta {
+        margin-top: 16px;
+        display: block;
+        text-align: center;
+        padding: 14px 22px;
+        border-radius: 10px;
+        font-weight: 700;
+        font-size: 14px;
+        color: white !important;
+        background: linear-gradient(135deg,#E85D04,#7C3AED);
+        text-decoration: none !important;
+    }
+
     /* ===== RESPONSIVE ===== */
     @media (max-width: 768px) {
         .hero-bg { flex-direction: column; padding: 40px 20px; min-height: auto; }
@@ -1038,17 +1106,9 @@ GLOBAL_CSS = """<style>
         .step-connector { display: none; }
         .stats-grid { grid-template-columns: 1fr 1fr; }
 
-        /* Mobile nav — scrollable horizontal strip, hide CTA button */
-        .navbar-links {
-            overflow-x: auto !important;
-            scrollbar-width: none !important;
-            -ms-overflow-style: none !important;
-            gap: 14px !important;
-            padding-bottom: 2px;
-        }
-        .navbar-links::-webkit-scrollbar { display: none !important; }
-        .navbar-links a { font-size: 11px !important; white-space: nowrap !important; }
-        .navbar-cta { display: none !important; }
+        /* Mobile nav — hide desktop links, show hamburger */
+        .navbar-links { display: none !important; }
+        .nav-hamburger { display: flex !important; }
 
         /* Override all inline paddings on mobile */
         [style*="padding: 80px"], [style*="padding:80px"] {
@@ -1092,8 +1152,8 @@ GLOBAL_CSS = """<style>
         /* Stat badges */
         .stat-badge { width: 160px !important; }
 
-        /* Navbar spacer smaller on mobile */
-        .navbar-spacer { height: 56px !important; }
+        /* Navbar spacer matches actual navbar height on mobile */
+        .navbar-spacer { height: 72px !important; }
     }
 
     /* Very small screens */

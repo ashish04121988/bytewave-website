@@ -34,14 +34,17 @@ def navbar(active_page="Home"):
         "Careers": "/Careers",
     }
     nav_links = ""
+    mobile_nav_links = ""
     for name, path in pages.items():
         active_style = "color:#E85D04 !important; font-weight:700;" if name == active_page else ""
         nav_links += f'<a target="_self" href="{path}" style="{active_style}">{name}</a>'
+        mobile_nav_links += f'<a target="_self" href="{path}" class="mobile-nav-link" style="{active_style}">{name}</a>'
 
     logo_b64 = _logo_b64()
     logo_html = f'<a target="_self" href="/" style="text-decoration:none; display:flex; align-items:center; gap:12px;"><img src="data:image/png;base64,{logo_b64}" style="height:48px; width:48px; object-fit:cover; border-radius:10px;" alt="Bytewave Digital Logo" /></a>' if logo_b64 else ""
 
     st.markdown(f"""
+    <input type="checkbox" id="nav-toggle" class="nav-toggle-cb">
     <nav class="navbar">
         <div style="display:flex; align-items:center; gap:14px;">
             {logo_html}
@@ -54,7 +57,14 @@ def navbar(active_page="Home"):
             {nav_links}
             <a target="_self" href="/Contact" class="btn-gradient navbar-cta" style="text-decoration:none; padding:10px 22px; border-radius:8px; font-weight:700; font-size:13px; color:white; background:linear-gradient(135deg,#E85D04,#7C3AED); white-space:nowrap;">Schedule a Consultation</a>
         </div>
+        <label for="nav-toggle" class="nav-hamburger" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+        </label>
     </nav>
+    <div class="mobile-nav-menu">
+        {mobile_nav_links}
+        <a target="_self" href="/Contact" class="mobile-nav-cta">Schedule a Consultation</a>
+    </div>
     <div class="navbar-spacer"></div>
     """, unsafe_allow_html=True)
 
