@@ -28,7 +28,7 @@ with hero_left:
                 We help businesses cut through complexity and choose the right SaaS, cloud, and IT solutions &#8212; without the noise.
             </p>
             <p class="hero-sub">
-                Built on the legacy of Fundoo Data, Bytewave Digital is a vendor-neutral IT software reseller helping you identify and procure the right technology &#8212; faster, smarter, and without the noise.
+                Through its strategic partnership with Fundoodata and a strong industry network, Bytewave Digital helps organizations identify, evaluate, and adopt the right technology solutions &#8212; driven by business needs, not vendor agendas.
             </p>
             <div class="hero-cta-group">
                 <a target="_self" href="/Solutions" class="btn-gradient">&#128269; Explore Solutions</a>
@@ -125,19 +125,20 @@ with about_left:
             Your Technology &amp; <span class="gradient-text">Revenue Growth</span> Partner
         </h2>
         <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:16px;">
-            Bytewave Digital was born from the legacy of <strong style="color:#E85D04;">Fundoo Data</strong> &#8212; where we helped
-            organizations with deep corporate intelligence and business insights. Through these engagements,
-            we worked closely with SMEs, mid-size companies, and large enterprises, gaining firsthand visibility into how technology decisions are made.
+            At Bytewave Digital, we work with SMB, Mid-Market, and Enterprise businesses across industries such as Retail, Manufacturing, BFSI, Healthcare, Utilities, Technology, and Professional Services.
+        </p>
+        <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:16px;">
+            As organizations scale, they often face fragmented tools, disconnected systems, and limited visibility across key business functions. The challenge is rarely a lack of technology &#8212; it&#8217;s choosing the right solutions from too many options.
         </p>
         <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:28px;">
-            We identified a consistent gap &#8212; organizations were overwhelmed with choices and struggled to find the right-fit technology solutions aligned to their business needs. <strong style="color:#1C1107;">Bytewave Digital was created to simplify that journey.</strong>
+            From CRM, marketing automation, cloud adoption, and Data &amp; AI to Digital Engineering, Quality Engineering, and application performance monitoring, we help businesses identify, evaluate, and adopt the right technology solutions aligned to their goals.
         </p>
         <div style="display:flex; flex-direction:column; gap:10px; margin-bottom:32px;">
             <div style="display:flex; align-items:center; gap:12px; font-size:14px; color:#4A3728;">
                 <span style="color:#E85D04; font-weight:700;">&#10003;</span> Vendor-neutral technology advisory
             </div>
             <div style="display:flex; align-items:center; gap:12px; font-size:14px; color:#4A3728;">
-                <span style="color:#E85D04; font-weight:700;">&#10003;</span> Access to leading global software providers
+                <span style="color:#E85D04; font-weight:700;">&#10003;</span> Access to a curated ecosystem of global software providers
             </div>
             <div style="display:flex; align-items:center; gap:12px; font-size:14px; color:#4A3728;">
                 <span style="color:#E85D04; font-weight:700;">&#10003;</span> Faster, simplified procurement

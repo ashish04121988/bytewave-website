@@ -19,10 +19,10 @@ st.markdown("""
 <div class="page-header">
     <div class="page-header-watermark">ABOUT</div>
     <div class="section-label">Our Story</div>
-    <h1 class="section-title">Born from the Legacy of <span class="gradient-text">Fundoo Data</span></h1>
+    <h1 class="section-title">Built to <span class="gradient-text">Simplify Technology Decisions</span></h1>
     <p class="section-subtitle">
-        A vendor-neutral IT software reseller and technology advisor, focused on helping organizations
-        identify, evaluate, and procure the right technology solutions.
+        A trusted technology partner focused on helping organizations identify, evaluate, and adopt
+        the right technology solutions — driven by business needs, not vendor agendas.
     </p>
 </div>
 """, unsafe_allow_html=True)
@@ -38,13 +38,19 @@ with story_left:
             How <span class="gradient-text">Bytewave Digital</span> Came to Be
         </h2>
         <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:20px;">
-            Bytewave Digital was born from the legacy of <strong style="color:#E85D04;">Fundoo Data</strong> &#8212; where we helped organizations with deep corporate intelligence and business insights. Through these engagements, we worked closely with SMEs, mid-size companies, and large enterprises, gaining firsthand visibility into how technology decisions are made.
+            Bytewave Digital was founded with one clear objective &#8212; to simplify how organizations make technology decisions.
         </p>
         <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:20px;">
-            We identified a consistent gap &#8212; <strong style="color:#1C1107;">organizations were overwhelmed with choices and struggled to find the right-fit technology solutions aligned to their business needs.</strong> Too many vendors. Too many tools. Too much noise. This insight led to the creation of Bytewave Digital.
+            Through our engagement with businesses and collaboration across the industry, we observed a common challenge: companies were not struggling to access technology &#8212; they were struggling to choose the right one. Too many vendors. Too many tools. Too much noise.
+        </p>
+        <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:20px;">
+            As businesses scale, fragmented systems across sales, marketing, operations, and engineering often create inefficiencies, poor visibility, and slower decision-making.
+        </p>
+        <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:20px;">
+            Recognizing this gap, Bytewave Digital built a strategic ecosystem model in collaboration with Fundoodata, focused on helping organizations identify, evaluate, and adopt the right technology solutions aligned to their business goals.
         </p>
         <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:28px;">
-            At Bytewave Digital, we simplify that journey. We work with organizations to identify, evaluate, and procure the right technology solutions &#8212; aligned to their business goals, not vendor agendas. No implementation. No bias. Just the right decision.
+            Our role is to bridge business needs with the right technology solutions &#8212; ensuring smarter decisions, faster adoption, and stronger business outcomes. <strong style="color:#1C1107;">We don&#8217;t push tools &#8212; we simplify decisions. No bias. No unnecessary complexity. Just the right technology decision.</strong>
         </p>
         <div style="background:rgba(232,93,4,0.06); border:1px solid rgba(232,93,4,0.2); border-left:4px solid #E85D04; border-radius:0 12px 12px 0; padding:24px 28px; margin-bottom:32px;">
             <p style="font-size:15px; color:#4A3728; line-height:1.7; margin:0; font-style:italic;">

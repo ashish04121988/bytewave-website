@@ -16,6 +16,7 @@ def navbar(active_page="Home"):
         "Solutions": "/Solutions",
         "Services": "/Services",
         "Industries": "/Industries",
+        "For Vendors": "/For_Vendors",
         "Blog": "/Blog",
         "Careers": "/Careers",
     }
@@ -52,7 +53,7 @@ def footer():
             <div>
                 <div class="footer-logo">⚡ BYTEWAVE DIGITAL</div>
                 <div class="footer-tagline">
-                    Born from the legacy of Fundoo Data, Bytewave Digital is a vendor-neutral IT software reseller helping organizations identify, evaluate, and procure the right technology solutions.
+                    Bytewave Digital is the trusted technology partner of Fundoodata, enabling seamless technology access and smarter business decisions.
                 </div>
                 <div style="margin-top:24px; display:flex; gap:12px;">
                     <a target="_self" href="#" style="width:36px; height:36px; background:#FFFFFF; border:1px solid rgba(232,93,4,0.3); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:14px; text-decoration:none; color:#E85D04; font-weight:700;">in</a>
@@ -73,6 +74,7 @@ def footer():
             <div>
                 <div class="footer-heading">Resources</div>
                 <ul class="footer-links">
+                    <li><a target="_self" href="/For_Vendors">For Vendors</a></li>
                     <li><a target="_self" href="/Blog">Blog &amp; Insights</a></li>
                     <li><a target="_self" href="/Careers">Careers</a></li>
                 </ul>
