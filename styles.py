@@ -1028,14 +1028,79 @@ GLOBAL_CSS = """<style>
 
     /* ===== RESPONSIVE ===== */
     @media (max-width: 768px) {
-        .hero-bg { flex-direction: column; padding: 40px 24px; min-height: auto; }
-        .section { padding: 60px 24px; }
-        .navbar { padding: 16px 24px; }
+        .hero-bg { flex-direction: column; padding: 40px 20px; min-height: auto; }
+        .section { padding: 40px 20px !important; }
+        .navbar { padding: 12px 16px !important; }
         .split-cards { grid-template-columns: 1fr; }
         .contact-grid { grid-template-columns: 1fr; }
-        .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+        .footer-grid { grid-template-columns: 1fr; gap: 28px; }
         .process-steps { flex-direction: column; gap: 24px; }
         .step-connector { display: none; }
         .stats-grid { grid-template-columns: 1fr 1fr; }
+
+        /* Mobile nav — scrollable horizontal strip, hide CTA button */
+        .navbar-links {
+            overflow-x: auto !important;
+            scrollbar-width: none !important;
+            -ms-overflow-style: none !important;
+            gap: 14px !important;
+            padding-bottom: 2px;
+        }
+        .navbar-links::-webkit-scrollbar { display: none !important; }
+        .navbar-links a { font-size: 11px !important; white-space: nowrap !important; }
+        .navbar-cta { display: none !important; }
+
+        /* Override all inline paddings on mobile */
+        [style*="padding: 80px"], [style*="padding:80px"] {
+            padding: 32px 20px !important;
+        }
+        [style*="padding: 100px"], [style*="padding:100px"] {
+            padding: 40px 20px !important;
+        }
+
+        /* Force all divs with large inline padding to be mobile-friendly */
+        div[style*="padding: 80px 60px"] { padding: 32px 20px !important; }
+        div[style*="padding: 80px 40px"] { padding: 32px 20px !important; }
+        div[style*="padding: 100px 80px"] { padding: 40px 20px !important; }
+        div[style*="padding:80px 60px"] { padding: 32px 20px !important; }
+
+        /* Cards grid — single column on mobile */
+        .cards-grid { grid-template-columns: 1fr !important; gap: 16px !important; }
+        .service-card { padding: 24px !important; }
+
+        /* Section titles */
+        .section-title { font-size: 28px !important; }
+        .section-subtitle { font-size: 14px !important; }
+
+        /* Hero headline */
+        h1 { font-size: clamp(28px, 8vw, 40px) !important; }
+        h2 { font-size: clamp(22px, 6vw, 32px) !important; }
+
+        /* CTA banner */
+        .cta-banner { padding: 48px 24px !important; }
+        .cta-title { font-size: 24px !important; }
+        .cta-buttons { flex-direction: column; align-items: center; gap: 12px !important; }
+
+        /* Footer */
+        .footer { padding: 48px 24px 24px !important; }
+        .footer-bottom { flex-direction: column; gap: 8px; text-align: center; }
+
+        /* Page header */
+        .page-header { padding: 80px 24px 48px !important; }
+        .page-header-watermark { font-size: 60px !important; }
+
+        /* Stat badges */
+        .stat-badge { width: 160px !important; }
+
+        /* Navbar spacer smaller on mobile */
+        .navbar-spacer { height: 56px !important; }
+    }
+
+    /* Very small screens */
+    @media (max-width: 480px) {
+        .section-title { font-size: 24px !important; }
+        .btn-gradient, .btn-outline { padding: 12px 20px !important; font-size: 13px !important; }
+        .cards-grid { grid-template-columns: 1fr !important; }
+        .stats-grid { grid-template-columns: 1fr !important; }
     }
 </style>"""
