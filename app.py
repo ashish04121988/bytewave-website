@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 from styles import GLOBAL_CSS
-from components import navbar, footer
+from components import navbar, footer, seo
 
 st.set_page_config(
     page_title="Bytewave Digital — Right Technology. No Noise.",
@@ -11,6 +11,12 @@ st.set_page_config(
 )
 
 st.markdown(GLOBAL_CSS, unsafe_allow_html=True)
+seo(
+    title="Bytewave Digital Solutions LLP — Right Technology. No Noise.",
+    description="Bytewave Digital helps SMBs, Mid-Market, Enterprise, and Government organizations identify and adopt the right technology solutions across AI, Cybersecurity, Observability, and CRM.",
+    keywords="technology advisory, AI solutions, cybersecurity, APM, CRM, digital transformation, enterprise software, Bytewave Digital",
+    url="https://bytewavedigital.in/"
+)
 navbar("Home")
 
 # ─── HERO ────────────────────────────────────────────────────────────────────

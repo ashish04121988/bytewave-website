@@ -3,7 +3,7 @@ from PIL import Image
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from styles import GLOBAL_CSS
-from components import navbar, footer
+from components import navbar, footer, seo
 
 st.set_page_config(
     page_title="For Vendors — Bytewave Digital",
@@ -14,6 +14,12 @@ st.set_page_config(
 
 st.markdown(GLOBAL_CSS, unsafe_allow_html=True)
 navbar("For Vendors")
+seo(
+    title="For Vendors — Bytewave Digital Solutions LLP",
+    description="Partner with Bytewave Digital to reach enterprise buyers in India. Expand your market presence through our vendor partnership program.",
+    keywords="technology vendor India, software partner program, enterprise sales India, Bytewave vendor partnership",
+    url="https://bytewavedigital.in/For_Vendors"
+)
 
 # ─── HERO ─────────────────────────────────────────────────────────────────────
 st.markdown("""

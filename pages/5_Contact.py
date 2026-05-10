@@ -3,7 +3,7 @@ from PIL import Image
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from styles import GLOBAL_CSS
-from components import navbar, footer
+from components import navbar, footer, seo
 from email_utils import send_enquiry_email
 
 st.set_page_config(
@@ -15,6 +15,12 @@ st.set_page_config(
 
 st.markdown(GLOBAL_CSS, unsafe_allow_html=True)
 navbar("Contact")
+seo(
+    title="Contact — Bytewave Digital Solutions LLP",
+    description="Get in touch with Bytewave Digital Solutions LLP. Schedule a consultation to discuss your technology needs. Based in Noida, India, serving globally.",
+    keywords="contact Bytewave Digital, technology consultation India, schedule meeting, Noida IT company",
+    url="https://bytewavedigital.in/Contact"
+)
 
 # ─── PAGE HEADER ─────────────────────────────────────────────────────────────
 st.markdown("""

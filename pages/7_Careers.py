@@ -3,7 +3,7 @@ from PIL import Image
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from styles import GLOBAL_CSS
-from components import navbar, footer
+from components import navbar, footer, seo
 
 st.set_page_config(
     page_title="Careers — Bytewave Digital",
@@ -14,6 +14,12 @@ st.set_page_config(
 
 st.markdown(GLOBAL_CSS, unsafe_allow_html=True)
 navbar("Careers")
+seo(
+    title="Careers — Bytewave Digital Solutions LLP",
+    description="Join Bytewave Digital Solutions LLP. Explore career opportunities in technology advisory, sales, and consulting. Work with cutting-edge enterprise technology.",
+    keywords="careers Bytewave Digital, technology jobs India, Noida IT jobs, enterprise tech careers",
+    url="https://bytewavedigital.in/Careers"
+)
 
 # ─── PAGE HEADER ─────────────────────────────────────────────────────────────
 st.markdown("""

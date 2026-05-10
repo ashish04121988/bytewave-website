@@ -1,6 +1,24 @@
 import streamlit as st
 import base64, os
 
+def seo(title, description, keywords="", url="https://bytewavedigital.in"):
+    st.markdown(f"""
+    <meta name="description" content="{description}">
+    <meta name="keywords" content="{keywords}">
+    <meta name="author" content="Bytewave Digital Solutions LLP">
+    <meta name="robots" content="index, follow">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{title}">
+    <meta property="og:description" content="{description}">
+    <meta property="og:url" content="{url}">
+    <meta property="og:site_name" content="Bytewave Digital Solutions LLP">
+    <meta property="og:image" content="https://bytewavedigital.in/app/static/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{title}">
+    <meta name="twitter:description" content="{description}">
+    <link rel="canonical" href="{url}">
+    """, unsafe_allow_html=True)
+
 def _load_logo():
     base_dir = os.path.dirname(os.path.abspath(__file__))
     txt_path = os.path.join(base_dir, 'assets', 'logo_b64.txt')

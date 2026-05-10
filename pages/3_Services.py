@@ -3,7 +3,7 @@ from PIL import Image
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from styles import GLOBAL_CSS
-from components import navbar, footer
+from components import navbar, footer, seo
 
 st.set_page_config(
     page_title="Services — Bytewave Digital",
@@ -14,6 +14,12 @@ st.set_page_config(
 
 st.markdown(GLOBAL_CSS, unsafe_allow_html=True)
 navbar("Services")
+seo(
+    title="Services — Bytewave Digital Solutions LLP",
+    description="Bytewave Digital offers technology advisory, vendor evaluation, procurement support, and digital transformation services for enterprises across India.",
+    keywords="technology services India, IT advisory, software procurement, digital transformation services",
+    url="https://bytewavedigital.in/Services"
+)
 
 # ─── PAGE HEADER ─────────────────────────────────────────────────────────────
 st.markdown("""
