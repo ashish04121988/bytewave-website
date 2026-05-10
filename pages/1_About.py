@@ -1,12 +1,13 @@
 import streamlit as st
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from PIL import Image
 from styles import GLOBAL_CSS
 from components import navbar, footer
 
 st.set_page_config(
     page_title="About — Bytewave Digital",
-    page_icon="⚡",
+    page_icon=Image.open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets", "logo_favicon.png")),
     layout="wide",
     initial_sidebar_state="collapsed",
 )
@@ -21,8 +22,10 @@ st.markdown("""
     <div class="section-label">Our Story</div>
     <h1 class="section-title">Built to <span class="gradient-text">Simplify Technology Decisions</span></h1>
     <p class="section-subtitle">
-        A trusted technology partner focused on helping organizations identify, evaluate, and adopt
-        the right technology solutions — driven by business needs, not vendor agendas.
+        Bytewave Digital was founded with a simple belief &#8212; technology should drive growth, not complexity.
+        We help organizations navigate an evolving digital landscape by identifying and evaluating the right technology
+        solutions aligned with business goals, operational needs, and long-term growth &#8212; enabling smarter decisions
+        that drive efficiency, security, scalability, and innovation, not vendor agendas.
     </p>
 </div>
 """, unsafe_allow_html=True)
@@ -35,28 +38,32 @@ with story_left:
     <div style="padding: 80px 60px 60px 60px; background: #FAF8F4;">
         <div class="section-label" style="text-align:left;">Our Origin</div>
         <h2 style="font-size:clamp(28px,3.5vw,42px); font-weight:800; letter-spacing:-1px; color:#1C1107; margin-bottom:24px; line-height:1.15; text-align:left;">
-            How <span class="gradient-text">Bytewave Digital</span> Came to Be
+            Built to <span class="gradient-text">Simplify Technology Decisions</span>
         </h2>
         <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:20px;">
-            At Bytewave Digital, we partner with SMB, Mid-Market, Enterprise, and Government organizations across industries including BFSI, Public Sector Undertakings (PSUs), Government Digital Platforms, Telecom, and IT/SaaS companies.
+            As businesses scale, they often face fragmented tools, disconnected systems, and limited visibility across critical business and IT operations. Today&#8217;s challenge is not the lack of technology &#8212; it is identifying the right solutions that align with business goals while ensuring security, scalability, operational efficiency, and long-term growth.
         </p>
-        <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:20px;">
-            As organizations scale, they often face fragmented tools, disconnected systems, and limited visibility across critical business and IT operations. The challenge today is rarely the lack of technology &#8212; it is selecting, integrating, and managing the right solutions while ensuring security, scalability, operational efficiency, and business continuity.
-        </p>
-        <p style="font-size:15px; font-weight:700; color:#1C1107; margin-bottom:12px;">At Bytewave Digital, our core focus areas include:</p>
-        <div style="display:flex; flex-direction:column; gap:8px; margin-bottom:20px;">
-            <div style="display:flex; align-items:center; gap:10px; font-size:15px; color:#4A3728;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> AI &amp; Automation Solutions</div>
-            <div style="display:flex; align-items:center; gap:10px; font-size:15px; color:#4A3728;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Cybersecurity &amp; Cloud Security</div>
-            <div style="display:flex; align-items:center; gap:10px; font-size:15px; color:#4A3728;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Observability, Monitoring &amp; Application Performance Management (APM)</div>
-            <div style="display:flex; align-items:center; gap:10px; font-size:15px; color:#4A3728;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> CRM &amp; Customer Experience Solutions</div>
-        </div>
         <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:28px;">
-            We help organizations modernize IT operations, strengthen their security posture, improve operational visibility, enhance customer engagement, and accelerate digital transformation through scalable, business-aligned technology solutions.
+            At Bytewave Digital, we help SMBs, Mid-Market, Enterprise, and Government organizations across industries including BFSI, Public Sector Undertakings (PSUs), Government Digital Platforms, Telecom, and IT/SaaS modernize IT operations, strengthen security posture, improve operational visibility, enhance customer engagement, and accelerate digital growth through scalable, future-ready, and business-aligned technology solutions focused on four core areas.
         </p>
-        <div style="background:rgba(232,93,4,0.06); border:1px solid rgba(232,93,4,0.2); border-left:4px solid #E85D04; border-radius:0 12px 12px 0; padding:24px 28px; margin-bottom:32px;">
-            <p style="font-size:15px; color:#4A3728; line-height:1.7; margin:0; font-style:italic;">
-                "We don't build or implement &#8212; we help you <strong style="color:#E85D04;">choose and buy right</strong>."
-            </p>
+        <p style="font-size:15px; font-weight:700; color:#1C1107; margin-bottom:16px;">Our 4 Core Focus Areas</p>
+        <div style="display:flex; flex-direction:column; gap:14px; margin-bottom:32px;">
+            <div style="padding:16px 20px; background:#FFFFFF; border:1px solid rgba(232,93,4,0.15); border-left:3px solid #E85D04; border-radius:0 10px 10px 0;">
+                <div style="font-size:15px; font-weight:700; color:#1C1107; margin-bottom:6px;"><span style="color:#E85D04;">&#8594;</span> AI &amp; Automation Solutions</div>
+                <div style="font-size:14px; color:#6B5E52; line-height:1.6;">Helping businesses streamline workflows, improve productivity, and accelerate innovation through intelligent automation.</div>
+            </div>
+            <div style="padding:16px 20px; background:#FFFFFF; border:1px solid rgba(232,93,4,0.15); border-left:3px solid #E85D04; border-radius:0 10px 10px 0;">
+                <div style="font-size:15px; font-weight:700; color:#1C1107; margin-bottom:6px;"><span style="color:#E85D04;">&#8594;</span> Cybersecurity &amp; Cloud Security</div>
+                <div style="font-size:14px; color:#6B5E52; line-height:1.6;">Strengthening enterprise security with proactive threat protection, compliance-driven solutions, and secure cloud environments.</div>
+            </div>
+            <div style="padding:16px 20px; background:#FFFFFF; border:1px solid rgba(232,93,4,0.15); border-left:3px solid #E85D04; border-radius:0 10px 10px 0;">
+                <div style="font-size:15px; font-weight:700; color:#1C1107; margin-bottom:6px;"><span style="color:#E85D04;">&#8594;</span> Observability, Monitoring &amp; Application Performance Management (APM)</div>
+                <div style="font-size:14px; color:#6B5E52; line-height:1.6;">Providing real-time visibility into infrastructure, applications, and user experiences to ensure performance, uptime, and reliability.</div>
+            </div>
+            <div style="padding:16px 20px; background:#FFFFFF; border:1px solid rgba(232,93,4,0.15); border-left:3px solid #E85D04; border-radius:0 10px 10px 0;">
+                <div style="font-size:15px; font-weight:700; color:#1C1107; margin-bottom:6px;"><span style="color:#E85D04;">&#8594;</span> CRM &amp; Customer Experience Solutions</div>
+                <div style="font-size:14px; color:#6B5E52; line-height:1.6;">Enabling organizations to build stronger customer relationships through modern CRM platforms and personalized engagement strategies.</div>
+            </div>
         </div>
         <div style="display:flex; gap:16px; flex-wrap:wrap;">
             <a target="_self" href="/Contact" class="btn-gradient" style="text-decoration:none;">&#128197; Schedule a Consultation</a>

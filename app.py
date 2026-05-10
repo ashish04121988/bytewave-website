@@ -90,58 +90,6 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# ─── ABOUT SNAPSHOT ──────────────────────────────────────────────────────────
-st.markdown("""
-<div style="padding: 60px 60px 0; background: #FAF8F4; text-align:center;">
-    <div class="section-label">About Us</div>
-</div>
-""", unsafe_allow_html=True)
-
-about_left, about_right = st.columns([1.1, 0.9])
-
-with about_left:
-    st.markdown("""
-    <div style="padding: 0 40px 60px 60px; background: #FAF8F4;">
-        <h2 style="font-size:clamp(32px,4vw,48px); font-weight:800; letter-spacing:-1px; color:#1C1107; margin-bottom:20px; line-height:1.15; text-align:left;">
-            Your Technology &amp; <span class="gradient-text">Revenue Growth</span> Partner
-        </h2>
-        <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:16px;">
-            At Bytewave Digital, we work with SMB, Mid-Market, and Enterprise businesses across industries such as Retail, Manufacturing, BFSI, Healthcare, Utilities, Technology, and Professional Services.
-        </p>
-        <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:16px;">
-            As organizations scale, they often face fragmented tools, disconnected systems, and limited visibility across key business functions. The challenge is rarely a lack of technology &#8212; it&#8217;s choosing the right solutions from too many options.
-        </p>
-        <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:28px;">
-            From CRM, marketing automation, cloud adoption, and Data &amp; AI to Digital Engineering, Quality Engineering, and application performance monitoring, we help businesses identify, evaluate, and adopt the right technology solutions aligned to their goals.
-        </p>
-        <div style="display:flex; flex-direction:column; gap:10px; margin-bottom:32px;">
-            <div style="display:flex; align-items:center; gap:12px; font-size:14px; color:#4A3728;">
-                <span style="color:#E85D04; font-weight:700;">&#10003;</span> Vendor-neutral technology advisory
-            </div>
-            <div style="display:flex; align-items:center; gap:12px; font-size:14px; color:#4A3728;">
-                <span style="color:#E85D04; font-weight:700;">&#10003;</span> Access to a curated ecosystem of global software providers
-            </div>
-            <div style="display:flex; align-items:center; gap:12px; font-size:14px; color:#4A3728;">
-                <span style="color:#E85D04; font-weight:700;">&#10003;</span> Faster, simplified procurement
-            </div>
-            <div style="display:flex; align-items:center; gap:12px; font-size:14px; color:#4A3728;">
-                <span style="color:#E85D04; font-weight:700;">&#10003;</span> Cost optimization and right-fit solutions
-            </div>
-        </div>
-        <a target="_self" href="/About" class="btn-gradient" style="text-decoration:none;">Learn Our Story &#8594;</a>
-    </div>
-    """, unsafe_allow_html=True)
-
-with about_right:
-    st.markdown("""
-    <div style="padding: 0 60px 60px 0; background: #FAF8F4;">
-        <div class="about-img" style="height:460px; position:relative;">
-            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=90"
-                 style="width:100%; height:100%; object-fit:cover; border-radius:20px;" alt="Bytewave Digital Team" />
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
-
 # ─── SOLUTIONS (TABBED) ──────────────────────────────────────────────────────
 st.markdown("""
 <div style="padding: 80px 60px 40px; background: #FFFFFF;">
