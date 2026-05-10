@@ -48,11 +48,11 @@ with hero_right:
             <div class="stat-badge-label">Pipeline Growth</div>
         </div>
         <div class="stat-badge" style="width:210px;">
-            <div class="stat-badge-number"><span class="bw-counter" data-target="50">0</span>%</div>
+            <div class="stat-badge-number">50%</div>
             <div class="stat-badge-label">Faster Deal Cycles</div>
         </div>
         <div class="stat-badge" style="width:210px;">
-            <div class="stat-badge-number"><span class="bw-counter" data-target="1">0</span></div>
+            <div class="stat-badge-number">1</div>
             <div class="stat-badge-label">Strategic Partner</div>
         </div>
         <div style="margin-top:8px; text-align:center;">
@@ -72,17 +72,17 @@ st.markdown("""
             <div class="stat-sublabel">for technology vendors</div>
         </div>
         <div class="stat-item">
-            <div class="stat-number"><span class="bw-counter" data-target="50">0</span>%</div>
+            <div class="stat-number">50%</div>
             <div class="stat-label">Faster Deal Cycles</div>
             <div class="stat-sublabel">through curated advisory</div>
         </div>
         <div class="stat-item">
-            <div class="stat-number"><span class="bw-counter" data-target="4">0</span></div>
+            <div class="stat-number">4</div>
             <div class="stat-label">Core Focus Areas</div>
             <div class="stat-sublabel">AI, Cybersecurity, APM, CRM</div>
         </div>
         <div class="stat-item">
-            <div class="stat-number"><span class="bw-counter" data-target="1">0</span></div>
+            <div class="stat-number">1</div>
             <div class="stat-label">Strategic Partner</div>
             <div class="stat-sublabel">Fundoodata ecosystem</div>
         </div>
@@ -359,61 +359,5 @@ st.markdown("""
 </section>
 """, unsafe_allow_html=True)
 
-st.markdown("""
-<script>
-(function () {
-    'use strict';
-
-    /* ── Animated counter ── */
-    function animateCounter(el) {
-        if (el.dataset.animated) return;
-        el.dataset.animated = '1';
-        var target = parseFloat(el.dataset.target || 0);
-        var suffix = el.dataset.suffix || '';
-        var duration = 1500;
-        var startTs = null;
-        function ease(t) { return 1 - Math.pow(1 - t, 3); }
-        function step(ts) {
-            if (!startTs) startTs = ts;
-            var p = Math.min((ts - startTs) / duration, 1);
-            el.textContent = Math.floor(ease(p) * target) + suffix;
-            if (p < 1) requestAnimationFrame(step);
-        }
-        requestAnimationFrame(step);
-    }
-
-    /* ── Scroll-reveal for .reveal-card ── */
-    function checkReveals() {
-        var cards = document.querySelectorAll('.reveal-card:not(.revealed)');
-        var vh = window.innerHeight;
-        cards.forEach(function (card) {
-            if (card.getBoundingClientRect().top < vh - 60) {
-                card.classList.add('revealed');
-            }
-        });
-    }
-
-    /* ── Init ── */
-    function init() {
-        /* Counters via IntersectionObserver */
-        if (window.IntersectionObserver) {
-            var obs = new IntersectionObserver(function (entries) {
-                entries.forEach(function (e) {
-                    if (e.isIntersecting) { animateCounter(e.target); obs.unobserve(e.target); }
-                });
-            }, { threshold: 0.4 });
-            document.querySelectorAll('.bw-counter').forEach(function (c) { obs.observe(c); });
-        }
-
-        /* Reveal cards on scroll */
-        checkReveals();
-        window.addEventListener('scroll', checkReveals, { passive: true });
-    }
-
-    /* Wait for Streamlit to finish rendering */
-    setTimeout(init, 400);
-})();
-</script>
-""", unsafe_allow_html=True)
 
 footer()

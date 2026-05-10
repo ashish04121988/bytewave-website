@@ -70,11 +70,13 @@ def navbar(active_page="Home"):
 
 
 def footer():
-    st.markdown("""
+    logo_b64 = _logo_b64()
+    logo_img = f'<img src="data:image/png;base64,{logo_b64}" style="height:40px; width:auto; object-fit:contain; display:block; margin-bottom:6px;" alt="Bytewave Digital Logo" />' if logo_b64 else ""
+    st.markdown(f"""
     <div class="footer">
         <div class="footer-grid">
             <div>
-                <div class="footer-logo">⚡ BYTEWAVE DIGITAL</div>
+                <div class="footer-logo">{logo_img}BYTEWAVE DIGITAL</div>
                 <div class="footer-tagline">
                     Bytewave Digital is the strategic technology partner of Fundoodata, enabling businesses with modern technology solutions, actionable market intelligence, and smarter digital transformation decisions.
                 </div>
