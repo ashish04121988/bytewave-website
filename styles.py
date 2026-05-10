@@ -33,11 +33,13 @@ GLOBAL_CSS = """<style>
         background-color: #FAF8F4 !important;
     }
     .gradient-text {
-        background: linear-gradient(135deg, #E85D04, #7C3AED) !important;
+        background: linear-gradient(270deg, #E85D04, #7C3AED, #D97706) !important;
+        background-size: 300% 300% !important;
         -webkit-background-clip: text !important;
         -webkit-text-fill-color: transparent !important;
         background-clip: text !important;
         opacity: 1 !important;
+        animation: gradientFlow 5s ease infinite !important;
     }
 
     /* Remove default padding */
@@ -120,10 +122,16 @@ GLOBAL_CSS = """<style>
 
     /* ===== TYPOGRAPHY ===== */
     .gradient-text {
-        background: linear-gradient(135deg, #E85D04, #7C3AED);
+        background: linear-gradient(270deg, #E85D04, #7C3AED, #D97706);
+        background-size: 300% 300%;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
+        animation: gradientFlow 5s ease infinite;
+    }
+    @keyframes gradientFlow {
+        0%, 100% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
     }
     .warm-gradient-text {
         background: linear-gradient(135deg, #E85D04, #D97706);
@@ -222,11 +230,11 @@ GLOBAL_CSS = """<style>
 
     /* ===== HERO SECTION (LIGHT) ===== */
     .hero-bg {
-        min-height: 90vh;
+        min-height: 88vh;
         background: linear-gradient(135deg, #FAF8F4 0%, #F0EBE3 40%, #FAF8F4 100%);
         display: flex;
-        align-items: center;
-        padding: 80px 60px;
+        align-items: flex-start;
+        padding: 48px 60px 80px;
         position: relative;
         overflow: hidden;
     }
@@ -307,9 +315,15 @@ GLOBAL_CSS = """<style>
         text-align: center;
         box-shadow: 0 8px 32px rgba(28,17,7,0.08);
         animation: float 4s ease-in-out infinite;
+        transition: box-shadow 0.35s ease, border-color 0.35s ease;
+        cursor: default;
     }
     .stat-badge:nth-child(2) { animation-delay: 1.5s; }
     .stat-badge:nth-child(3) { animation-delay: 3s; }
+    .stat-badge:hover {
+        box-shadow: 0 12px 48px rgba(232,93,4,0.28), 0 0 24px rgba(232,93,4,0.1);
+        border-color: rgba(232,93,4,0.5);
+    }
     .stat-badge-number {
         font-size: 32px;
         font-weight: 900;
@@ -400,31 +414,38 @@ GLOBAL_CSS = """<style>
     .section-dark { background: #FAF8F4; }
     .section-darker { background: #FFFFFF; }
 
-    .section-label {
+    .section-label,
+    div.section-label {
         font-size: 12px;
         font-weight: 700;
         letter-spacing: 3px;
         text-transform: uppercase;
         color: #E85D04;
         margin-bottom: 12px;
-        text-align: center;
+        text-align: center !important;
     }
-    .section-title {
+    .section-title,
+    h1.section-title,
+    h2.section-title,
+    h3.section-title {
         font-size: clamp(30px, 4vw, 46px);
         font-weight: 800;
         letter-spacing: -1px;
         line-height: 1.15;
         color: #1C1107;
         margin-bottom: 16px;
-        text-align: center;
+        text-align: center !important;
     }
-    .section-subtitle {
+    .section-subtitle,
+    p.section-subtitle {
         font-size: 17px;
         color: #6B5E52;
-        max-width: 560px;
-        margin: 0 auto 56px;
+        max-width: 640px;
+        width: 100%;
+        margin: 0 auto 48px;
         line-height: 1.7;
-        text-align: center;
+        text-align: center !important;
+        display: block;
     }
 
     /* ===== CARDS (LIGHT) ===== */
@@ -995,6 +1016,17 @@ GLOBAL_CSS = """<style>
     .career-value-icon { font-size: 44px; margin-bottom: 16px; }
     .career-value-title { font-size: 18px; font-weight: 700; color: #1C1107; margin-bottom: 12px; }
     .career-value-desc { font-size: 14px; color: #6B5E52; line-height: 1.7; }
+
+    /* ===== SCROLL REVEAL ===== */
+    .reveal-card {
+        opacity: 0;
+        transform: translateY(36px);
+        transition: opacity 0.65s ease, transform 0.65s ease;
+    }
+    .reveal-card.revealed {
+        opacity: 1;
+        transform: translateY(0);
+    }
 
     /* ===== ANIMATIONS ===== */
     @keyframes fadeInUp {

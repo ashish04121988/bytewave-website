@@ -18,6 +18,7 @@ hero_left, hero_right = st.columns([1.4, 0.6])
 with hero_left:
     st.markdown("""
     <div class="hero-bg">
+        <div style="position:absolute; inset:0; background-image:radial-gradient(circle, rgba(232,93,4,0.11) 1.5px, transparent 1.5px); background-size:28px 28px; pointer-events:none; z-index:0;"></div>
         <div style="max-width:700px; z-index:2; position:relative;">
             <div class="hero-eyebrow">Enterprise AI, Cybersecurity &amp; Observability Solutions Partner</div>
             <h1 class="hero-h1">
@@ -40,17 +41,17 @@ with hero_left:
 
 with hero_right:
     st.markdown("""
-    <div style="background: #FAF8F4; min-height:92vh; display:flex; flex-direction:column; justify-content:center; align-items:center; gap:20px; padding:40px 24px;">
-        <div class="stat-badge" style="width:200px;">
-            <div class="stat-badge-number">3&#8211;4x</div>
+    <div style="background: #FAF8F4; min-height:88vh; display:flex; flex-direction:column; justify-content:center; align-items:center; gap:20px; padding:40px 24px;">
+        <div class="stat-badge" style="width:210px;">
+            <div class="stat-badge-number">3&#8211;4×</div>
             <div class="stat-badge-label">Pipeline Growth</div>
         </div>
-        <div class="stat-badge" style="width:200px;">
-            <div class="stat-badge-number">50%</div>
+        <div class="stat-badge" style="width:210px;">
+            <div class="stat-badge-number"><span class="bw-counter" data-target="50">0</span>%</div>
             <div class="stat-badge-label">Faster Deal Cycles</div>
         </div>
-        <div class="stat-badge" style="width:200px;">
-            <div class="stat-badge-number">1</div>
+        <div class="stat-badge" style="width:210px;">
+            <div class="stat-badge-number"><span class="bw-counter" data-target="1">0</span></div>
             <div class="stat-badge-label">Strategic Partner</div>
         </div>
         <div style="margin-top:8px; text-align:center;">
@@ -60,48 +61,27 @@ with hero_right:
     </div>
     """, unsafe_allow_html=True)
 
-# ─── PARTNER STRIP ────────────────────────────────────────────────────────────
-st.markdown("""
-<div class="partner-strip">
-    <div style="text-align:center; margin-bottom:18px; font-size:12px; color:#A89888; letter-spacing:2px; text-transform:uppercase; font-weight:700;">
-        Trusted Technology Ecosystem
-    </div>
-    <div class="partner-logos">
-        <div class="partner-logo">Microsoft</div>
-        <div class="partner-logo">AWS</div>
-        <div class="partner-logo">Google Cloud</div>
-        <div class="partner-logo">Salesforce</div>
-        <div class="partner-logo">SAP</div>
-        <div class="partner-logo">HubSpot</div>
-        <div class="partner-logo">Freshworks</div>
-        <div class="partner-logo">Zoho</div>
-        <div class="partner-logo">ServiceNow</div>
-        <div class="partner-logo">Oracle</div>
-    </div>
-</div>
-""", unsafe_allow_html=True)
-
 # ─── STATS SECTION ───────────────────────────────────────────────────────────
 st.markdown("""
 <div class="stats-section">
     <div class="stats-grid">
         <div class="stat-item">
-            <div class="stat-number">3&#8211;4x</div>
+            <div class="stat-number">3&#8211;4×</div>
             <div class="stat-label">Pipeline Growth</div>
             <div class="stat-sublabel">for technology vendors</div>
         </div>
         <div class="stat-item">
-            <div class="stat-number">50%</div>
+            <div class="stat-number"><span class="bw-counter" data-target="50">0</span>%</div>
             <div class="stat-label">Faster Deal Cycles</div>
             <div class="stat-sublabel">through curated advisory</div>
         </div>
         <div class="stat-item">
-            <div class="stat-number">4</div>
+            <div class="stat-number"><span class="bw-counter" data-target="4">0</span></div>
             <div class="stat-label">Core Focus Areas</div>
             <div class="stat-sublabel">AI, Cybersecurity, APM, CRM</div>
         </div>
         <div class="stat-item">
-            <div class="stat-number">1</div>
+            <div class="stat-number"><span class="bw-counter" data-target="1">0</span></div>
             <div class="stat-label">Strategic Partner</div>
             <div class="stat-sublabel">Fundoodata ecosystem</div>
         </div>
@@ -157,10 +137,6 @@ with about_right:
         <div class="about-img" style="height:460px; position:relative;">
             <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=90"
                  style="width:100%; height:100%; object-fit:cover; border-radius:20px;" alt="Bytewave Digital Team" />
-            <div class="about-img-badge">
-                <div class="about-img-badge-num">Est. 2024</div>
-                <div class="about-img-badge-text">Noida, India</div>
-            </div>
         </div>
     </div>
     """, unsafe_allow_html=True)
@@ -337,7 +313,7 @@ hw_c1, hw_c2, hw_c3 = st.columns(3)
 with hw_c1:
     st.markdown("""
     <div style="padding: 0 12px 80px; background: #FAF8F4;">
-        <div class="feature-card">
+        <div class="feature-card reveal-card">
             <div class="feature-num">01</div>
             <div class="feature-icon">&#128269;</div>
             <div class="feature-title">Understand</div>
@@ -349,7 +325,7 @@ with hw_c1:
 with hw_c2:
     st.markdown("""
     <div style="padding: 0 12px 80px; background: #FAF8F4;">
-        <div class="feature-card">
+        <div class="feature-card reveal-card" style="transition-delay:0.15s;">
             <div class="feature-num">02</div>
             <div class="feature-icon">&#129513;</div>
             <div class="feature-title">Curate</div>
@@ -361,7 +337,7 @@ with hw_c2:
 with hw_c3:
     st.markdown("""
     <div style="padding: 0 12px 80px; background: #FAF8F4;">
-        <div class="feature-card">
+        <div class="feature-card reveal-card" style="transition-delay:0.3s;">
             <div class="feature-num">03</div>
             <div class="feature-icon">&#128640;</div>
             <div class="feature-title">Enable</div>
@@ -380,6 +356,63 @@ st.markdown("""
         <a target="_self" href="/Solutions" class="btn-outline">&#128269; Explore Solutions</a>
     </div>
 </section>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<script>
+(function () {
+    'use strict';
+
+    /* ── Animated counter ── */
+    function animateCounter(el) {
+        if (el.dataset.animated) return;
+        el.dataset.animated = '1';
+        var target = parseFloat(el.dataset.target || 0);
+        var suffix = el.dataset.suffix || '';
+        var duration = 1500;
+        var startTs = null;
+        function ease(t) { return 1 - Math.pow(1 - t, 3); }
+        function step(ts) {
+            if (!startTs) startTs = ts;
+            var p = Math.min((ts - startTs) / duration, 1);
+            el.textContent = Math.floor(ease(p) * target) + suffix;
+            if (p < 1) requestAnimationFrame(step);
+        }
+        requestAnimationFrame(step);
+    }
+
+    /* ── Scroll-reveal for .reveal-card ── */
+    function checkReveals() {
+        var cards = document.querySelectorAll('.reveal-card:not(.revealed)');
+        var vh = window.innerHeight;
+        cards.forEach(function (card) {
+            if (card.getBoundingClientRect().top < vh - 60) {
+                card.classList.add('revealed');
+            }
+        });
+    }
+
+    /* ── Init ── */
+    function init() {
+        /* Counters via IntersectionObserver */
+        if (window.IntersectionObserver) {
+            var obs = new IntersectionObserver(function (entries) {
+                entries.forEach(function (e) {
+                    if (e.isIntersecting) { animateCounter(e.target); obs.unobserve(e.target); }
+                });
+            }, { threshold: 0.4 });
+            document.querySelectorAll('.bw-counter').forEach(function (c) { obs.observe(c); });
+        }
+
+        /* Reveal cards on scroll */
+        checkReveals();
+        window.addEventListener('scroll', checkReveals, { passive: true });
+    }
+
+    /* Wait for Streamlit to finish rendering */
+    setTimeout(init, 400);
+})();
+</script>
 """, unsafe_allow_html=True)
 
 footer()

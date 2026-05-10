@@ -140,29 +140,4 @@ with col_right:
             else:
                 st.error("Please fill in all required fields marked with *")
 
-# ─── QUICK ACTIONS ───────────────────────────────────────────────────────────
-st.markdown("""
-<section class="section section-beige">
-    <div class="section-label">Quick Actions</div>
-    <h2 class="section-title">Other Ways to <span class="gradient-text">Connect</span></h2>
-    <div class="cards-grid" style="max-width:800px;">
-        <div class="service-card" style="text-align:center;">
-            <span class="card-icon">&#128197;</span>
-            <div class="card-title">Schedule a Consultation</div>
-            <div class="card-desc">Book a free 30-minute call with our technology advisory experts.</div>
-        </div>
-        <div class="service-card" style="text-align:center;">
-            <span class="card-icon">&#128269;</span>
-            <div class="card-title">Explore Solutions</div>
-            <div class="card-desc">Browse our full range of technology solutions across categories.</div>
-        </div>
-        <div class="service-card" style="text-align:center;">
-            <span class="card-icon">&#127760;</span>
-            <div class="card-title">Talk to an Expert</div>
-            <div class="card-desc">Speak directly with a vendor-neutral technology advisor today.</div>
-        </div>
-    </div>
-</section>
-""", unsafe_allow_html=True)
-
 footer()

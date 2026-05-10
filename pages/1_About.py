@@ -71,10 +71,6 @@ with story_right:
         <div class="about-img" style="height:480px; position:relative;">
             <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=90"
                  style="width:100%; height:100%; object-fit:cover; border-radius:20px;" alt="Bytewave Digital Team" />
-            <div class="about-img-badge">
-                <div class="about-img-badge-num">Est. 2024</div>
-                <div class="about-img-badge-text">Noida, India</div>
-            </div>
         </div>
     </div>
     """, unsafe_allow_html=True)
