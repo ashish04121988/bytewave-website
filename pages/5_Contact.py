@@ -1,4 +1,5 @@
 import streamlit as st
+from PIL import Image
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from styles import GLOBAL_CSS
@@ -7,7 +8,7 @@ from email_utils import send_enquiry_email
 
 st.set_page_config(
     page_title="Contact — Bytewave Digital",
-    page_icon="⚡",
+    page_icon=Image.open(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets", "logo_favicon.png")),
     layout="wide",
     initial_sidebar_state="collapsed",
 )
