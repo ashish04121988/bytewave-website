@@ -19,13 +19,13 @@ with hero_left:
     st.markdown("""
     <div class="hero-bg">
         <div style="max-width:700px; z-index:2; position:relative;">
-            <div class="hero-eyebrow">Vendor-Neutral IT Software Reseller</div>
+            <div class="hero-eyebrow">Enterprise AI, Cybersecurity &amp; Observability Solutions Partner</div>
             <h1 class="hero-h1">
                 Simplifying Technology Decisions.<br>
                 <span class="gradient-text">Maximizing Business Outcomes.</span>
             </h1>
             <p class="hero-sub">
-                We help businesses cut through complexity and choose the right SaaS, cloud, and IT solutions &#8212; without the noise.
+                Helping organizations modernize IT operations, strengthen security posture, and improve operational visibility through scalable, business-aligned technology solutions.
             </p>
             <p class="hero-sub">
                 Through its strategic partnership with Fundoodata and a strong industry network, Bytewave Digital helps organizations identify, evaluate, and adopt the right technology solutions &#8212; driven by business needs, not vendor agendas.
@@ -50,8 +50,8 @@ with hero_right:
             <div class="stat-badge-label">Faster Deal Cycles</div>
         </div>
         <div class="stat-badge" style="width:200px;">
-            <div class="stat-badge-number">15+</div>
-            <div class="stat-badge-label">Technology Partners</div>
+            <div class="stat-badge-number">1</div>
+            <div class="stat-badge-label">Strategic Partner</div>
         </div>
         <div style="margin-top:8px; text-align:center;">
             <div style="font-size:11px; color:#A89888; letter-spacing:1px; text-transform:uppercase; margin-bottom:12px;">Trusted by</div>
@@ -96,14 +96,14 @@ st.markdown("""
             <div class="stat-sublabel">through curated advisory</div>
         </div>
         <div class="stat-item">
-            <div class="stat-number">6</div>
-            <div class="stat-label">Solution Categories</div>
-            <div class="stat-sublabel">CRM, Cloud, AI &amp; more</div>
+            <div class="stat-number">4</div>
+            <div class="stat-label">Core Focus Areas</div>
+            <div class="stat-sublabel">AI, Cybersecurity, APM, CRM</div>
         </div>
         <div class="stat-item">
-            <div class="stat-number">15+</div>
-            <div class="stat-label">Technology Partners</div>
-            <div class="stat-sublabel">global ecosystem</div>
+            <div class="stat-number">1</div>
+            <div class="stat-label">Strategic Partner</div>
+            <div class="stat-sublabel">Fundoodata ecosystem</div>
         </div>
     </div>
 </div>
@@ -178,8 +178,8 @@ st.markdown("""
 
 with st.container():
 
-    tab1, tab2, tab3, tab4, tab5, tab6 = st.tabs([
-        "&#128187; CRM", "&#128226; Marketing", "&#128301; Observability", "&#9729;&#65039; Cloud &amp; IT", "&#129302; AI", "&#128101; HR &amp; Finance"
+    tab1, tab2, tab3, tab4 = st.tabs([
+        "&#129302; AI &amp; Automation", "&#128274; Cybersecurity &amp; Cloud Security", "&#128301; Observability &amp; APM", "&#128187; CRM &amp; Customer Experience"
     ])
 
     with tab1:
@@ -187,12 +187,12 @@ with st.container():
         with col_img:
             st.markdown("""
             <div class="sol-img-card">
-                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=90" alt="CRM Solutions" />
+                <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=900&q=90" alt="AI and Automation" />
                 <div class="sol-img-overlay">
                     <span class="sol-img-tag">SOLUTION 01</span>
-                    <div class="sol-img-icon">&#129309;</div>
-                    <div class="sol-img-title">CRM Solutions</div>
-                    <div class="sol-img-desc">Drive sales excellence through the right CRM platform</div>
+                    <div class="sol-img-icon">&#129302;</div>
+                    <div class="sol-img-title">AI &amp; Automation Solutions</div>
+                    <div class="sol-img-desc">Intelligent automation for modern enterprises</div>
                 </div>
             </div>
             """, unsafe_allow_html=True)
@@ -200,20 +200,20 @@ with st.container():
             st.markdown("""
             <div style="padding-left:24px;">
                 <div class="section-label" style="text-align:left;">Solution 01</div>
-                <h3 style="font-size:30px; font-weight:800; color:#1C1107; margin-bottom:16px; letter-spacing:-0.5px;">CRM Solutions</h3>
+                <h3 style="font-size:30px; font-weight:800; color:#1C1107; margin-bottom:16px; letter-spacing:-0.5px;">AI &amp; Automation Solutions</h3>
                 <p style="font-size:15px; color:#6B5E52; line-height:1.8; margin-bottom:20px;">
-                    Select CRM platforms that align with your sales processes, improve customer engagement,
-                    and drive revenue growth. We help you evaluate scalability, integrations, and usability
-                    before making a decision.
+                    Leverage next-generation AI and automation tools that streamline workflows, enhance
+                    productivity, and drive intelligent decision-making. We help organizations identify
+                    the right AI platforms aligned to real business use cases.
                 </p>
                 <ul style="list-style:none; display:flex; flex-direction:column; gap:10px; margin-bottom:28px;">
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Scalability evaluation &amp; comparison</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Integration compatibility mapping</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> User adoption assessment</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Commercial comparison &amp; vendor shortlisting</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Right-fit recommendation</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> AI readiness assessment</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Workflow automation platform evaluation</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Agentic AI &amp; LLM tool advisory</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Use-case alignment &amp; business value mapping</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Vendor-neutral AI solution shortlisting</li>
                 </ul>
-                <a target="_self" href="/Contact" class="btn-gradient" style="text-decoration:none;">Get CRM Advisory &#8594;</a>
+                <a target="_self" href="/Contact" class="btn-gradient" style="text-decoration:none;">Get AI Advisory &#8594;</a>
             </div>
             """, unsafe_allow_html=True)
 
@@ -222,12 +222,12 @@ with st.container():
         with col_img:
             st.markdown("""
             <div class="sol-img-card">
-                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=900&q=90" alt="Marketing Automation" />
+                <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=900&q=90" alt="Cybersecurity" />
                 <div class="sol-img-overlay">
                     <span class="sol-img-tag">SOLUTION 02</span>
-                    <div class="sol-img-icon">&#128226;</div>
-                    <div class="sol-img-title">Marketing Automation</div>
-                    <div class="sol-img-desc">Navigate the martech landscape with confidence</div>
+                    <div class="sol-img-icon">&#128274;</div>
+                    <div class="sol-img-title">Cybersecurity &amp; Cloud Security</div>
+                    <div class="sol-img-desc">Strengthen your security posture end-to-end</div>
                 </div>
             </div>
             """, unsafe_allow_html=True)
@@ -235,20 +235,20 @@ with st.container():
             st.markdown("""
             <div style="padding-left:24px;">
                 <div class="section-label" style="text-align:left;">Solution 02</div>
-                <h3 style="font-size:30px; font-weight:800; color:#1C1107; margin-bottom:16px; letter-spacing:-0.5px;">Marketing Automation Tools</h3>
+                <h3 style="font-size:30px; font-weight:800; color:#1C1107; margin-bottom:16px; letter-spacing:-0.5px;">Cybersecurity &amp; Cloud Security</h3>
                 <p style="font-size:15px; color:#6B5E52; line-height:1.8; margin-bottom:20px;">
-                    Navigate the crowded martech landscape with confidence. We guide you in choosing platforms
-                    that enhance lead generation, campaign management, and customer journey orchestration
-                    aligned to your marketing strategy.
+                    Protect your organization with the right security tools and posture. We help you
+                    evaluate and adopt cybersecurity and cloud security solutions aligned to your
+                    risk profile, compliance requirements, and IT environment.
                 </p>
                 <ul style="list-style:none; display:flex; flex-direction:column; gap:10px; margin-bottom:28px;">
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Lead generation platforms</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Campaign management tools</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Customer journey orchestration</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Martech stack evaluation</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> ROI-focused selection</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Security posture assessment</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Cloud security platform evaluation</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Endpoint &amp; network security advisory</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Compliance &amp; risk management tools</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Vendor-neutral security shortlisting</li>
                 </ul>
-                <a target="_self" href="/Contact" class="btn-gradient" style="text-decoration:none;">Get MarTech Advisory &#8594;</a>
+                <a target="_self" href="/Contact" class="btn-gradient" style="text-decoration:none;">Get Security Advisory &#8594;</a>
             </div>
             """, unsafe_allow_html=True)
 
@@ -257,12 +257,12 @@ with st.container():
         with col_img:
             st.markdown("""
             <div class="sol-img-card">
-                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=90" alt="Observability" />
+                <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=90" alt="Observability and APM" />
                 <div class="sol-img-overlay">
                     <span class="sol-img-tag">SOLUTION 03</span>
                     <div class="sol-img-icon">&#128301;</div>
-                    <div class="sol-img-title">Observability</div>
-                    <div class="sol-img-desc">Complete visibility at cloud scale</div>
+                    <div class="sol-img-title">Observability &amp; APM</div>
+                    <div class="sol-img-desc">Complete visibility across your IT stack</div>
                 </div>
             </div>
             """, unsafe_allow_html=True)
@@ -270,18 +270,18 @@ with st.container():
             st.markdown("""
             <div style="padding-left:24px;">
                 <div class="section-label" style="text-align:left;">Solution 03</div>
-                <h3 style="font-size:30px; font-weight:800; color:#1C1107; margin-bottom:16px; letter-spacing:-0.5px;">Observability for Cloud-Scale Apps</h3>
+                <h3 style="font-size:30px; font-weight:800; color:#1C1107; margin-bottom:16px; letter-spacing:-0.5px;">Observability, Monitoring &amp; APM</h3>
                 <p style="font-size:15px; color:#6B5E52; line-height:1.8; margin-bottom:20px;">
-                    Gain complete visibility into your applications and infrastructure. We help you choose
-                    observability platforms that ensure performance, reliability, and faster issue resolution
-                    at cloud scale &#8212; so your teams can act on insights, not guesses.
+                    Gain complete visibility into your applications, infrastructure, and IT operations.
+                    We help you choose observability and APM platforms that improve performance,
+                    reliability, and faster issue resolution at scale.
                 </p>
                 <ul style="list-style:none; display:flex; flex-direction:column; gap:10px; margin-bottom:28px;">
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Application monitoring</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Infrastructure visibility</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Performance analytics</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Reliability engineering tools</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Cloud-scale platform evaluation</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Application performance monitoring (APM)</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Infrastructure &amp; log management tools</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Real-time alerting &amp; incident management</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Cloud-scale observability platform evaluation</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Reliability engineering advisory</li>
                 </ul>
                 <a target="_self" href="/Contact" class="btn-gradient" style="text-decoration:none;">Get Observability Advisory &#8594;</a>
             </div>
@@ -292,12 +292,12 @@ with st.container():
         with col_img:
             st.markdown("""
             <div class="sol-img-card">
-                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=90" alt="Cloud and IT" />
+                <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=900&q=90" alt="CRM and Customer Experience" />
                 <div class="sol-img-overlay">
                     <span class="sol-img-tag">SOLUTION 04</span>
-                    <div class="sol-img-icon">&#9729;&#65039;</div>
-                    <div class="sol-img-title">Cloud &amp; IT Solutions</div>
-                    <div class="sol-img-desc">Scale with confidence in the cloud</div>
+                    <div class="sol-img-icon">&#129309;</div>
+                    <div class="sol-img-title">CRM &amp; Customer Experience</div>
+                    <div class="sol-img-desc">Drive engagement and revenue growth</div>
                 </div>
             </div>
             """, unsafe_allow_html=True)
@@ -305,89 +305,20 @@ with st.container():
             st.markdown("""
             <div style="padding-left:24px;">
                 <div class="section-label" style="text-align:left;">Solution 04</div>
-                <h3 style="font-size:30px; font-weight:800; color:#1C1107; margin-bottom:16px; letter-spacing:-0.5px;">Cloud &amp; IT Solutions</h3>
+                <h3 style="font-size:30px; font-weight:800; color:#1C1107; margin-bottom:16px; letter-spacing:-0.5px;">CRM &amp; Customer Experience Solutions</h3>
                 <p style="font-size:15px; color:#6B5E52; line-height:1.8; margin-bottom:20px;">
-                    Choose the right cloud platforms and infrastructure tools to support scalability and performance.
-                    We help you evaluate public, private, and hybrid options aligned to your business goals and budget.
+                    Select CRM and customer experience platforms that align with your sales processes,
+                    improve customer engagement, and drive revenue growth. We help you evaluate
+                    scalability, integrations, and usability before committing.
                 </p>
                 <ul style="list-style:none; display:flex; flex-direction:column; gap:10px; margin-bottom:28px;">
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Public, private &amp; hybrid cloud evaluation</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Infrastructure comparison</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Cost optimization</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Scalability planning</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Vendor negotiation support</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> CRM platform evaluation &amp; comparison</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Customer engagement tool advisory</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Integration compatibility mapping</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> User adoption &amp; change management</li>
+                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Right-fit vendor shortlisting</li>
                 </ul>
-                <a target="_self" href="/Contact" class="btn-gradient" style="text-decoration:none;">Get Cloud Advisory &#8594;</a>
-            </div>
-            """, unsafe_allow_html=True)
-
-    with tab5:
-        col_img, col_txt = st.columns([1, 1])
-        with col_img:
-            st.markdown("""
-            <div class="sol-img-card">
-                <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=900&q=90" alt="AI Solutions" />
-                <div class="sol-img-overlay">
-                    <span class="sol-img-tag">SOLUTION 05</span>
-                    <div class="sol-img-icon">&#129302;</div>
-                    <div class="sol-img-title">Agentic AI Solutions</div>
-                    <div class="sol-img-desc">Intelligent automation for modern businesses</div>
-                </div>
-            </div>
-            """, unsafe_allow_html=True)
-        with col_txt:
-            st.markdown("""
-            <div style="padding-left:24px;">
-                <div class="section-label" style="text-align:left;">Solution 05</div>
-                <h3 style="font-size:30px; font-weight:800; color:#1C1107; margin-bottom:16px; letter-spacing:-0.5px;">Agentic AI Solutions</h3>
-                <p style="font-size:15px; color:#6B5E52; line-height:1.8; margin-bottom:20px;">
-                    Leverage next-generation AI tools that automate workflows, enhance productivity, and drive
-                    intelligent decision-making. We help you identify AI platforms that align with your use
-                    cases and deliver measurable business value.
-                </p>
-                <ul style="list-style:none; display:flex; flex-direction:column; gap:10px; margin-bottom:28px;">
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Workflow automation AI platforms</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Decision-making &amp; productivity tools</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Use-case alignment</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> AI readiness assessment</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Business value mapping</li>
-                </ul>
-                <a target="_self" href="/Contact" class="btn-gradient" style="text-decoration:none;">Get AI Advisory &#8594;</a>
-            </div>
-            """, unsafe_allow_html=True)
-
-    with tab6:
-        col_img, col_txt = st.columns([1, 1])
-        with col_img:
-            st.markdown("""
-            <div class="sol-img-card">
-                <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=900&q=90" alt="HR and Finance" />
-                <div class="sol-img-overlay">
-                    <span class="sol-img-tag">SOLUTION 06</span>
-                    <div class="sol-img-icon">&#128101;</div>
-                    <div class="sol-img-title">HR &amp; Finance Software</div>
-                    <div class="sol-img-desc">Smarter workforce and financial management</div>
-                </div>
-            </div>
-            """, unsafe_allow_html=True)
-        with col_txt:
-            st.markdown("""
-            <div style="padding-left:24px;">
-                <div class="section-label" style="text-align:left;">Solution 06</div>
-                <h3 style="font-size:30px; font-weight:800; color:#1C1107; margin-bottom:16px; letter-spacing:-0.5px;">HR &amp; Finance Software</h3>
-                <p style="font-size:15px; color:#6B5E52; line-height:1.8; margin-bottom:20px;">
-                    Enable smarter workforce and financial management with the right tools. We help you
-                    identify solutions that improve operational efficiency, compliance, and decision-making
-                    across your HR and finance functions.
-                </p>
-                <ul style="list-style:none; display:flex; flex-direction:column; gap:10px; margin-bottom:28px;">
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Workforce management platforms</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Financial reporting tools</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Payroll &amp; compliance solutions</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Operational efficiency evaluation</li>
-                    <li style="font-size:14px; color:#4A3728; display:flex; align-items:center; gap:10px;"><span style="color:#E85D04;">&#8594;</span> Compliance alignment</li>
-                </ul>
-                <a target="_self" href="/Contact" class="btn-gradient" style="text-decoration:none;">Get HR &amp; Finance Advisory &#8594;</a>
+                <a target="_self" href="/Contact" class="btn-gradient" style="text-decoration:none;">Get CRM Advisory &#8594;</a>
             </div>
             """, unsafe_allow_html=True)
 

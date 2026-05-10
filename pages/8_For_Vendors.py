@@ -27,8 +27,11 @@ st.markdown("""
         <p style="font-size:20px; color:#4A3728; font-weight:600; margin-bottom:12px;">
             Choose Bytewave Digital to drive contextual adoption &#8212; not just leads.
         </p>
+        <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:16px; max-width:720px;">
+            Bytewave Digital partners with technology vendors to drive growth through strategic market access and industry-focused engagement across SMB, Mid-Market, Enterprise, and Government organizations.
+        </p>
         <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:40px; max-width:720px;">
-            Bytewave Digital helps technology vendors accelerate growth through strategic customer access, use-case-driven selling, and a strong B2B ecosystem across SMB, Mid-Market, and Enterprise segments.
+            With expertise in AI &amp; Automation, Cybersecurity &amp; Cloud Security, and Observability &amp; APM, we help vendors align solutions to real business challenges and accelerate scalable growth.
         </p>
         <div style="display:flex; gap:16px; flex-wrap:wrap;">
             <a target="_self" href="/Contact" class="btn-gradient" style="text-decoration:none;">&#128073; Become a Vendor Partner</a>

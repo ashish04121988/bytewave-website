@@ -33,7 +33,7 @@ st.markdown("""
     <div style="text-align:center; margin-bottom:48px;">
         <div class="section-label">Our Verticals</div>
         <h2 class="section-title">Industries We <span class="gradient-text">Specialize In</span></h2>
-        <p class="section-subtitle">Deep domain knowledge paired with vendor-neutral technology advisory &#8212; tailored for each sector.</p>
+        <p class="section-subtitle">Deep domain expertise combined with strategic technology advisory tailored to each industry&#8217;s unique business and operational needs.</p>
     </div>
 </div>
 """, unsafe_allow_html=True)
@@ -45,10 +45,10 @@ with st.container():
     with row1_c1:
         st.markdown("""
         <div class="industry-img-card" style="margin-bottom:8px;">
-            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=700&q=90" alt="Technology and SaaS" />
+            <img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=700&q=90" alt="BFSI" />
             <div class="industry-img-overlay">
-                <div class="industry-img-title">&#128187; Technology &amp; SaaS</div>
-                <div class="industry-img-sub">Scalable stacks for fast-growing tech companies</div>
+                <div class="industry-img-title">&#127974; BFSI</div>
+                <div class="industry-img-sub">Secure, compliant tech for banking &amp; financial services</div>
             </div>
         </div>
         """, unsafe_allow_html=True)
@@ -56,10 +56,10 @@ with st.container():
     with row1_c2:
         st.markdown("""
         <div class="industry-img-card" style="margin-bottom:8px;">
-            <img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?auto=format&fit=crop&w=700&q=90" alt="Financial Services" />
+            <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?auto=format&fit=crop&w=700&q=90" alt="PSUs" />
             <div class="industry-img-overlay">
-                <div class="industry-img-title">&#127974; Financial Services</div>
-                <div class="industry-img-sub">Secure, compliant tech for BFSI organizations</div>
+                <div class="industry-img-title">&#127963; Public Sector Undertakings (PSUs)</div>
+                <div class="industry-img-sub">IT modernization for public enterprises</div>
             </div>
         </div>
         """, unsafe_allow_html=True)
@@ -67,10 +67,10 @@ with st.container():
     with row1_c3:
         st.markdown("""
         <div class="industry-img-card" style="margin-bottom:8px;">
-            <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=700&q=90" alt="Healthcare" />
+            <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=700&q=90" alt="Government Digital Platforms" />
             <div class="industry-img-overlay">
-                <div class="industry-img-title">&#127973; Healthcare &amp; Life Sciences</div>
-                <div class="industry-img-sub">Compliance-first platforms for clinical operations</div>
+                <div class="industry-img-title">&#128187; Government Digital Platforms</div>
+                <div class="industry-img-sub">Digital transformation for government services</div>
             </div>
         </div>
         """, unsafe_allow_html=True)
@@ -85,10 +85,10 @@ with st.container():
         st.markdown("""
         <div style="background:rgba(232,93,4,0.04); border:1px solid rgba(232,93,4,0.12); border-radius:0 0 12px 12px; padding:20px; margin-bottom:32px;">
             <ul style="list-style:none; display:flex; flex-direction:column; gap:8px;">
-                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Scalable architecture selection</li>
-                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> SaaS tool stack evaluation</li>
-                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Integration ecosystem mapping</li>
-                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Growth-stage technology planning</li>
+                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Cybersecurity &amp; compliance solutions</li>
+                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Core banking &amp; fintech integrations</li>
+                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Observability for financial platforms</li>
+                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Regulatory reporting &amp; monitoring</li>
             </ul>
         </div>
         """, unsafe_allow_html=True)
@@ -97,10 +97,10 @@ with st.container():
         st.markdown("""
         <div style="background:rgba(232,93,4,0.04); border:1px solid rgba(232,93,4,0.12); border-radius:0 0 12px 12px; padding:20px; margin-bottom:32px;">
             <ul style="list-style:none; display:flex; flex-direction:column; gap:8px;">
-                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Compliance-aligned tools</li>
-                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Data security evaluation</li>
-                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Core banking integrations</li>
-                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Regulatory reporting solutions</li>
+                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> IT modernization advisory</li>
+                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Government-grade security solutions</li>
+                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Compliance-aligned platforms</li>
+                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> ERP &amp; operational tool evaluation</li>
             </ul>
         </div>
         """, unsafe_allow_html=True)
@@ -109,10 +109,10 @@ with st.container():
         st.markdown("""
         <div style="background:rgba(232,93,4,0.04); border:1px solid rgba(232,93,4,0.12); border-radius:0 0 12px 12px; padding:20px; margin-bottom:32px;">
             <ul style="list-style:none; display:flex; flex-direction:column; gap:8px;">
-                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> EHR &amp; HMS evaluation</li>
-                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> HIPAA-aligned platforms</li>
-                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Lab management tools</li>
-                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Clinical workflow automation</li>
+                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Citizen services technology advisory</li>
+                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Cloud &amp; infrastructure evaluation</li>
+                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Data security &amp; governance tools</li>
+                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Digital platform observability</li>
             </ul>
         </div>
         """, unsafe_allow_html=True)
@@ -126,10 +126,10 @@ with st.container():
     with row2_c1:
         st.markdown("""
         <div class="industry-img-card" style="margin-bottom:8px;">
-            <img src="https://images.unsplash.com/photo-1565043589221-1a6fd9ae45c7?auto=format&fit=crop&w=700&q=90" alt="Manufacturing" />
+            <img src="https://images.unsplash.com/photo-1516116216624-53e697fedbea?auto=format&fit=crop&w=700&q=90" alt="Telecom" />
             <div class="industry-img-overlay">
-                <div class="industry-img-title">&#127981; Manufacturing &amp; Logistics</div>
-                <div class="industry-img-sub">Efficiency tools for manufacturers &amp; distributors</div>
+                <div class="industry-img-title">&#128225; Telecom</div>
+                <div class="industry-img-sub">Network, CRM &amp; automation for telecom operators</div>
             </div>
         </div>
         """, unsafe_allow_html=True)
@@ -137,10 +137,10 @@ with st.container():
     with row2_c2:
         st.markdown("""
         <div class="industry-img-card" style="margin-bottom:8px;">
-            <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=700&q=90" alt="Retail" />
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=700&q=90" alt="Technology Companies" />
             <div class="industry-img-overlay">
-                <div class="industry-img-title">&#128722; Retail &amp; E-commerce</div>
-                <div class="industry-img-sub">Omnichannel platforms for customer growth</div>
+                <div class="industry-img-title">&#9881;&#65039; Technology Companies</div>
+                <div class="industry-img-sub">Scalable IT solutions for tech-driven businesses</div>
             </div>
         </div>
         """, unsafe_allow_html=True)
@@ -148,10 +148,10 @@ with st.container():
     with row2_c3:
         st.markdown("""
         <div class="industry-img-card" style="margin-bottom:8px;">
-            <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=700&q=90" alt="Education" />
+            <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=700&q=90" alt="SaaS Companies" />
             <div class="industry-img-overlay">
-                <div class="industry-img-title">&#127891; Education &amp; Public Sector</div>
-                <div class="industry-img-sub">Cost-effective, scalable solutions for institutions</div>
+                <div class="industry-img-title">&#9729;&#65039; SaaS Companies</div>
+                <div class="industry-img-sub">Observability, security &amp; growth tools for SaaS</div>
             </div>
         </div>
         """, unsafe_allow_html=True)
@@ -166,10 +166,10 @@ with st.container():
         st.markdown("""
         <div style="background:rgba(232,93,4,0.04); border:1px solid rgba(232,93,4,0.12); border-radius:0 0 12px 12px; padding:20px; margin-bottom:32px;">
             <ul style="list-style:none; display:flex; flex-direction:column; gap:8px;">
-                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> ERP selection &amp; comparison</li>
-                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Supply chain tools</li>
-                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Warehouse management systems</li>
-                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> IoT &amp; automation platforms</li>
+                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Network performance monitoring</li>
+                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> CRM &amp; customer experience platforms</li>
+                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> AI-driven automation tools</li>
+                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> BSS/OSS transformation advisory</li>
             </ul>
         </div>
         """, unsafe_allow_html=True)
@@ -178,10 +178,10 @@ with st.container():
         st.markdown("""
         <div style="background:rgba(232,93,4,0.04); border:1px solid rgba(232,93,4,0.12); border-radius:0 0 12px 12px; padding:20px; margin-bottom:32px;">
             <ul style="list-style:none; display:flex; flex-direction:column; gap:8px;">
-                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> E-commerce platform selection</li>
-                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Customer engagement tools</li>
-                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Inventory &amp; order management</li>
-                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Analytics &amp; personalization</li>
+                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Scalable architecture &amp; tool selection</li>
+                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Security posture assessment</li>
+                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Observability &amp; APM platform advisory</li>
+                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Growth-stage technology planning</li>
             </ul>
         </div>
         """, unsafe_allow_html=True)
@@ -190,10 +190,10 @@ with st.container():
         st.markdown("""
         <div style="background:rgba(232,93,4,0.04); border:1px solid rgba(232,93,4,0.12); border-radius:0 0 12px 12px; padding:20px; margin-bottom:32px;">
             <ul style="list-style:none; display:flex; flex-direction:column; gap:8px;">
-                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> LMS &amp; EdTech evaluation</li>
-                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Cost-effective procurement</li>
-                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Compliance-aligned solutions</li>
-                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Scalable infrastructure choices</li>
+                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Observability &amp; APM tool evaluation</li>
+                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Integration ecosystem mapping</li>
+                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> AI &amp; automation platform advisory</li>
+                <li style="font-size:13px; color:#4A3728; display:flex; align-items:center; gap:8px;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Customer experience solutions</li>
             </ul>
         </div>
         """, unsafe_allow_html=True)
