@@ -4,7 +4,7 @@ import base64, os
 def _load_logo():
     base_dir = os.path.dirname(os.path.abspath(__file__))
     txt_path = os.path.join(base_dir, 'assets', 'logo_b64.txt')
-    png_path = os.path.join(base_dir, 'assets', 'logo.png')
+    png_path = os.path.join(base_dir, 'assets', 'logo_favicon.png')
     try:
         with open(txt_path, 'r') as f:
             return f.read().strip()
@@ -41,7 +41,7 @@ def navbar(active_page="Home"):
         mobile_nav_links += f'<a target="_self" href="{path}" class="mobile-nav-link" style="{active_style}">{name}</a>'
 
     logo_b64 = _logo_b64()
-    logo_html = f'<a target="_self" href="/" style="text-decoration:none; display:flex; align-items:center; gap:12px;"><img src="data:image/png;base64,{logo_b64}" style="height:48px; width:48px; object-fit:cover; border-radius:10px;" alt="Bytewave Digital Logo" /></a>' if logo_b64 else ""
+    logo_html = f'<a target="_self" href="/" style="text-decoration:none; display:flex; align-items:center; gap:12px;"><img src="data:image/png;base64,{logo_b64}" style="height:48px; width:auto; object-fit:contain;" alt="Bytewave Digital Logo" /></a>' if logo_b64 else ""
 
     st.markdown(f"""
     <input type="checkbox" id="nav-toggle" class="nav-toggle-cb">
