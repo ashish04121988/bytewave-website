@@ -3,6 +3,8 @@ __pycache__/
 *.pyc
 .DS_Store
 *.png
+!assets/logo.png
+!assets/logo_favicon.png
 *.jpg
 *.jpeg
 *.gif

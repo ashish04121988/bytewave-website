@@ -1,10 +1,11 @@
 import streamlit as st
+from PIL import Image
 from styles import GLOBAL_CSS
 from components import navbar, footer
 
 st.set_page_config(
     page_title="Bytewave Digital — Right Technology. No Noise.",
-    page_icon="⚡",
+    page_icon=Image.open("assets/logo_favicon.png"),
     layout="wide",
     initial_sidebar_state="collapsed",
 )
