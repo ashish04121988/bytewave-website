@@ -46,11 +46,11 @@ with col_left:
         <div style="display:flex; flex-direction:column; gap:16px; margin-bottom:40px;">
             <div style="display:flex; align-items:center; gap:14px;">
                 <div style="width:40px; height:40px; background:rgba(232,93,4,0.1); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0;">&#128231;</div>
-                <span style="font-size:14px; color:#6B5E52;">nitesh12787@gmail.com</span>
+                <span style="font-size:14px; color:#6B5E52;">Sales@bytewavedigital.in</span>
             </div>
             <div style="display:flex; align-items:center; gap:14px;">
                 <div style="width:40px; height:40px; background:rgba(232,93,4,0.1); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0;">&#128222;</div>
-                <span style="font-size:14px; color:#6B5E52;">+91-9810773138</span>
+                <span style="font-size:14px; color:#6B5E52;">828-753-1308</span>
             </div>
             <div style="display:flex; align-items:center; gap:14px;">
                 <div style="width:40px; height:40px; background:rgba(232,93,4,0.1); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0;">&#128205;</div>
@@ -58,7 +58,7 @@ with col_left:
             </div>
             <div style="display:flex; align-items:center; gap:14px;">
                 <div style="width:40px; height:40px; background:rgba(232,93,4,0.1); border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0;">&#127760;</div>
-                <span style="font-size:14px; color:#6B5E52;">www.bytewavedigital.com</span>
+                <span style="font-size:14px; color:#6B5E52;">www.bytewavedigital.in</span>
             </div>
         </div>
         <div style="font-size:12px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:#A89888; margin-bottom:16px;">What Happens Next?</div>
@@ -91,9 +91,9 @@ with col_right:
     with st.form("contact_form", clear_on_submit=True):
         c1, c2 = st.columns(2)
         with c1:
-            name = st.text_input("Your Name *", placeholder="Nitesh Kumar")
+            name = st.text_input("Your Name *", placeholder="Your Full Name")
         with c2:
-            email = st.text_input("Work Email *", placeholder="nitesh@company.com")
+            email = st.text_input("Work Email *", placeholder="you@company.com")
 
         c3, c4 = st.columns(2)
         with c3:

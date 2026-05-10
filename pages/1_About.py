@@ -38,19 +38,20 @@ with story_left:
             How <span class="gradient-text">Bytewave Digital</span> Came to Be
         </h2>
         <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:20px;">
-            Bytewave Digital was founded with one clear objective &#8212; to simplify how organizations make technology decisions.
+            At Bytewave Digital, we partner with SMB, Mid-Market, Enterprise, and Government organizations across industries including BFSI, Public Sector Undertakings (PSUs), Government Digital Platforms, Telecom, and IT/SaaS companies.
         </p>
         <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:20px;">
-            Through our engagement with businesses and collaboration across the industry, we observed a common challenge: companies were not struggling to access technology &#8212; they were struggling to choose the right one. Too many vendors. Too many tools. Too much noise.
+            As organizations scale, they often face fragmented tools, disconnected systems, and limited visibility across critical business and IT operations. The challenge today is rarely the lack of technology &#8212; it is selecting, integrating, and managing the right solutions while ensuring security, scalability, operational efficiency, and business continuity.
         </p>
-        <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:20px;">
-            As businesses scale, fragmented systems across sales, marketing, operations, and engineering often create inefficiencies, poor visibility, and slower decision-making.
-        </p>
-        <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:20px;">
-            Recognizing this gap, Bytewave Digital built a strategic ecosystem model in collaboration with Fundoodata, focused on helping organizations identify, evaluate, and adopt the right technology solutions aligned to their business goals.
-        </p>
+        <p style="font-size:15px; font-weight:700; color:#1C1107; margin-bottom:12px;">At Bytewave Digital, our core focus areas include:</p>
+        <div style="display:flex; flex-direction:column; gap:8px; margin-bottom:20px;">
+            <div style="display:flex; align-items:center; gap:10px; font-size:15px; color:#4A3728;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> AI &amp; Automation Solutions</div>
+            <div style="display:flex; align-items:center; gap:10px; font-size:15px; color:#4A3728;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Cybersecurity &amp; Cloud Security</div>
+            <div style="display:flex; align-items:center; gap:10px; font-size:15px; color:#4A3728;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> Observability, Monitoring &amp; Application Performance Management (APM)</div>
+            <div style="display:flex; align-items:center; gap:10px; font-size:15px; color:#4A3728;"><span style="color:#E85D04; font-weight:700;">&#8594;</span> CRM &amp; Customer Experience Solutions</div>
+        </div>
         <p style="font-size:16px; color:#6B5E52; line-height:1.85; margin-bottom:28px;">
-            Our role is to bridge business needs with the right technology solutions &#8212; ensuring smarter decisions, faster adoption, and stronger business outcomes. <strong style="color:#1C1107;">We don&#8217;t push tools &#8212; we simplify decisions. No bias. No unnecessary complexity. Just the right technology decision.</strong>
+            We help organizations modernize IT operations, strengthen their security posture, improve operational visibility, enhance customer engagement, and accelerate digital transformation through scalable, business-aligned technology solutions.
         </p>
         <div style="background:rgba(232,93,4,0.06); border:1px solid rgba(232,93,4,0.2); border-left:4px solid #E85D04; border-radius:0 12px 12px 0; padding:24px 28px; margin-bottom:32px;">
             <p style="font-size:15px; color:#4A3728; line-height:1.7; margin:0; font-style:italic;">
