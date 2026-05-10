@@ -112,16 +112,10 @@ with col_right:
             "I'm interested in *",
             [
                 "Select a service...",
-                "CRM Solutions",
-                "Marketing Automation Tools",
-                "HR & Finance Software",
-                "Cloud & IT Solutions",
-                "Agentic AI Solutions",
-                "Observability Platforms",
-                "Lead Generation",
-                "Sales Execution Support",
-                "End-to-End Revenue Partnership",
-                "Schedule a Free Consultation",
+                "AI & Automation Solutions",
+                "Cybersecurity & Cloud Security",
+                "Observability & APM",
+                "CRM & Customer Experience Solutions",
                 "Other",
             ]
         )

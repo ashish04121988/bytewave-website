@@ -155,29 +155,24 @@ st.markdown("""
     <p class="section-subtitle">We work with vendors across these key technology domains to drive contextual adoption.</p>
     <div class="cards-grid">
         <div class="service-card">
-            <span class="card-icon">&#128202;</span>
-            <div class="card-title">CRM &amp; Sales Platforms</div>
-            <div class="card-desc">Drive adoption of customer engagement and pipeline management solutions across SMB to Enterprise buyers.</div>
+            <span class="card-icon">&#129302;</span>
+            <div class="card-title">AI &amp; Automation Solutions</div>
+            <div class="card-desc">Enable adoption of AI platforms, intelligent automation, and agentic workflows that drive measurable business outcomes.</div>
         </div>
         <div class="service-card">
-            <span class="card-icon">&#128268;</span>
-            <div class="card-title">Marketing Automation</div>
-            <div class="card-desc">Enable scalable demand generation and customer lifecycle management with the right MarTech solutions.</div>
+            <span class="card-icon">&#128737;</span>
+            <div class="card-title">Cybersecurity &amp; Cloud Security</div>
+            <div class="card-desc">Help organizations strengthen security posture with modern cybersecurity and cloud security solutions aligned to real risk.</div>
         </div>
         <div class="service-card">
             <span class="card-icon">&#128064;</span>
-            <div class="card-title">Observability &amp; DevOps</div>
-            <div class="card-desc">Support cloud-native businesses with monitoring, performance, and reliability tools for engineering excellence.</div>
+            <div class="card-title">Observability &amp; APM</div>
+            <div class="card-desc">Support engineering and IT teams with monitoring, performance management, and reliability tools for operational excellence.</div>
         </div>
         <div class="service-card">
-            <span class="card-icon">&#9729;&#65039;</span>
-            <div class="card-title">Cloud &amp; Infrastructure</div>
-            <div class="card-desc">Help organizations adopt scalable, secure, and cost-effective cloud infrastructure solutions aligned to their scale.</div>
-        </div>
-        <div class="service-card">
-            <span class="card-icon">&#129302;</span>
-            <div class="card-title">AI &amp; Emerging Tech</div>
-            <div class="card-desc">Enable adoption of next-generation AI platforms and digital transformation solutions for forward-thinking businesses.</div>
+            <span class="card-icon">&#128202;</span>
+            <div class="card-title">CRM &amp; Customer Experience</div>
+            <div class="card-desc">Drive adoption of customer engagement, pipeline management, and CX solutions across SMB to Enterprise buyers.</div>
         </div>
     </div>
 </section>
